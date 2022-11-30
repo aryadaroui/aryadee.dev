@@ -1,0 +1,109 @@
+/* .body {
+	display: flex;
+	
+} */
+.katex-display {
+	color: #DDDDDD;
+}
+
+code {
+	font-family: Hack;
+	font-size: small;
+}
+
+p>code {
+	color: #fe72cb;
+	font-size: 1em;
+	background-color: #0d111786;
+	border-radius: .3em;
+	padding: 4px 4px 4px;
+    white-space: nowrap;
+}
+
+pre>code {
+	border-radius: 10px;
+	overflow-x:scroll;
+	scrollbar-width: thin;
+	box-shadow: 0px 0px 20px 0px #070707;
+	background-color: 0D1117;
+}
+
+
+body {
+	margin: auto;
+	background-color: #21252A;
+}
+
+
+h1, h2, h3 {
+	font-family: Hack;
+	color: #DDDDDD;
+}
+
+p {
+	font-family: Hack;
+	color: #DDDDDD;
+
+}
+
+a {
+	font-family: Hack;
+	color: #00b8eb;
+	text-decoration: none;
+}
+
+a:visited {
+	color: darken(#00b8eb, 15%);
+}
+
+a:hover {
+	color: #DDDDDD;
+	text-decoration: underline;
+}
+
+/* Classes */
+
+.code-line-numbers__number {
+	text-align: right;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	color: #DDDDDD;
+	background-color: #0D1117;
+	padding: 3px 10px;
+	margin-right: 5px;
+}
+
+.code-line-numbers__number__zeros {
+	color: transparent;
+}
+
+.fancy-text {
+	--bg-size: 400%;
+	--color-white: hsl(0, 0%, 100%);
+	--color-rose: hsl(330, 100%, 75%);
+	--color-turquoise: hsl(190, 100%, 75%);
+	background: linear-gradient(
+			-45deg,
+			var(--color-white),
+			var(--color-rose),
+			var(--color-turquoise),
+			var(--color-white)
+		)
+		0 0 / var(--bg-size) 100%;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	animation: move-bg 30s infinite ease;
+}
+
+@keyframes move-bg {
+	to {
+		background-position: var(--bg-size) 0;
+	}
+}
