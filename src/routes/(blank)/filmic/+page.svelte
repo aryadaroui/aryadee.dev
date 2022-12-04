@@ -120,17 +120,17 @@
 
 	let reader;
 
-	onMount(()=> {
+	onMount(() => {
 		// debugger
-	reader = new FileReader();
-	reader.addEventListener(
-		'load',
-		() => {
-			dummy_file = reader.result;
-		},
-		false
-	);
-	})
+		reader = new FileReader();
+		reader.addEventListener(
+			'load',
+			() => {
+				dummy_file = reader.result;
+			},
+			false
+		);
+	});
 
 	// debugger
 	// const reader = new FileReader();
@@ -522,54 +522,97 @@
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap');
+	/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap'); */
+
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 100;
+		font-display: swap;
+		src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2)
+			format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+			U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 200;
+		font-display: swap;
+		src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2)
+			format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+			U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+	@font-face {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2)
+			format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+			U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
 
 	button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 200;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.5s;
-  color: white;
-  /* transition: background-color 0.2s; */
-}
-button:hover {
-  border-color: #64c6ff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+		border-radius: 8px;
+		border: 1px solid transparent;
+		padding: 0.6em 1.2em;
+		font-size: 1em;
+		font-weight: 200;
+		font-family: inherit;
+		background-color: #1a1a1a;
+		cursor: pointer;
+		transition: border-color 0.5s;
+		color: white;
+		/* transition: background-color 0.2s; */
+	}
+	button:hover {
+		border-color: #64c6ff;
+	}
+	button:focus,
+	button:focus-visible {
+		outline: 4px auto -webkit-focus-ring-color;
+	}
 
-button:active {
-  background-color: #2d3336;
+	button:active {
+		background-color: #2d3336;
+	}
 
-}
-
-	
 	main {
 		font-family: Inter;
 		font-weight: 100;
 		text-align: center;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 
 	a {
 		font-family: Inter;
 		font-weight: 200;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 
 	p {
 		font-family: Inter;
 		font-weight: 200;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 
 	h2 {
 		font-family: Inter;
 		font-weight: 200;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 
 	#content-container {
@@ -626,6 +669,4 @@ button:active {
 			/* text-align: left; */
 		}
 	}
-
-	
 </style>

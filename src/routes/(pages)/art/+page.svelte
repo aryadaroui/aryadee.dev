@@ -1,5 +1,7 @@
 <title>aryadee | art</title>
 
+<h1 class="fancy-text">art</h1>
+
 
 <h1>photos</h1>
 
