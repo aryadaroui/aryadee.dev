@@ -1,8 +1,6 @@
 <script lang="ts">
 	import type { Builder } from '@sveltejs/kit';
-	import { image } from 'd3';
 	import { onMount } from 'svelte';
-	import { init } from 'svelte/internal';
 	import { StarSprite } from './StarSprite';
 	import { clamp } from '../filmic/functions';
 
@@ -89,11 +87,16 @@
 	// }
 
 	function generate_sprite_stars() {
-		const blue_stars = new Array(300);
+		const blue_stars = new Array(200);
 
 		for (let index = 0; index < blue_stars.length; index++) {
 			blue_stars[index] = new StarSprite();
 		}
+
+		// put the closer stars latest to render
+		blue_stars.sort((a, b) => {
+			return a.z - b.z;
+		});
 
 		return blue_stars;
 	}
@@ -111,7 +114,7 @@
 	}
 
 	onMount(() => {
-		const fps =20;
+		const fps = 24;
 		let w;
 		let h;
 		const canvas = document.getElementById('space') as HTMLCanvasElement;
@@ -128,40 +131,26 @@
 			setCanvasExtents();
 			ctx.imageSmoothingEnabled = false;
 			redraw_sprite_stars(ctx, blue_stars);
-			// redraw();
 		};
-
-		// Promise.all(load_sprites()).then(() => {
-		// 	draw_sprite_stars(ctx, blue_stars)
-		// })
 
 		const blue_stars = generate_sprite_stars();
 
 		ctx.imageSmoothingEnabled = false;
 		draw_sprite_stars(ctx, blue_stars);
 
-		// function intro() {
-		// 	ctx.fillStyle = 'blue';
-		// 	ctx.fillRect(0, 0, canvas.width, canvas.height);
-		// }
-
 		let opacity = 1.0;
 
 		function animate() {
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 			// perform some animation task here
-			ctx.fillStyle=`rgba(10,11,12, ${opacity})`
+			ctx.fillStyle = `rgba(10,11,12, ${opacity})`;
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-			// draw sprite stars
-			// draw dot stars
-
-			// sprite.draw(ctx);
 			draw_sprite_stars(ctx, blue_stars);
-			ctx.fillStyle=`rgba(9,9,9, ${opacity})`
+			ctx.fillStyle = `rgba(9,9,9, ${opacity})`;
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-			opacity = clamp( opacity - 0.1, 0.0, 1.0);
+			opacity = clamp(opacity - 0.05, 0.0, 1.0);
 
 			setTimeout(() => {
 				requestAnimationFrame(animate);
@@ -178,6 +167,54 @@
 </script>
 
 <main>
+	<div class="header-content">
+		<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
+		<div class="nav-wrapper">
+			<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
+			<a class="nav-item" href="/filmic/">filmic</a>
+			<a class="nav-item" href="/art/" style="margin-right: 0px;">art</a>
+			<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
+		</div>
+	</div>
+
+	<div class="overlay">
+		<h1>// about me</h1>
+		<div class="img-top-right">
+			<img
+				id="pic-of-me"
+				src="me_looking_like_im_an_action_movie_hero_who_is_in_disguise.webp"
+				alt="Me looking like I'm an action movie hero who is in disguise because I'm wearing a hat and sunglasses."
+				width="300"
+				height="300"
+			/>
+		</div>
+		<p>
+			My name is Arya. I am a computer engineer and I like to code.
+			<br /><br />
+			I did my master's at UC Irvine and my thesis was on modeling multi-core SoCs, advised by professor
+			Rainer Dömer.
+			<br /><br />
+			I have an affinity for signal processing: audio, image, data analysis, neural networks--basically
+			anything that needs an ndArray.
+			<br /><br />
+			My hobbies match my code; in my spare time, I make music, digital art, and take photos.
+			<!-- <br /><br /> -->
+			<!-- P.S. Try resizing your browser window for some fun. -->
+		</p>
+	</div>
+
+	<div class="footer">
+		<div class="item-left">
+			<p>Arya "Dee" Daroui</p>
+			<a class="page-link" href="mailto: adaroui@uci.edu">adaroui@uci.edu</a>
+		</div>
+
+		<div class="item-right">
+			<p>Computer engineer</p>
+			<a class="page-link" href="/about">About me</a>
+		</div>
+	</div>
+
 	<canvas id="space" width="500" height="500" />
 </main>
 
@@ -186,13 +223,196 @@
 		background-color: #090909;
 	}
 
+	h1 {
+		font-size: 1.7em;
+	}
+
+	.img-top-right {
+		text-align: center;
+		/* content: ''; */
+		/* display: block; */
+		/* float: right; */
+		/* height: 200px; */
+	}
+
+	#pic-of-me {
+		float: right;
+
+		/* position: absolute;
+		top: 70px;
+		right: 80px; */
+		/* margin-right: 10px; */
+
+		margin-left: 30px;
+		/* margin: 20px; */
+	}
+
+	.overlay {
+		/* color: aliceblue; */
+		/* position: absolute; */
+		/* font-size: 4em; */
+
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		background-size: contain;
+		/* position: absolute; */
+		/* margin-bottom: 0; */
+		/* height: calc(100vh - 160px); */
+		/* bottom: 0; */
+		/* background-color: #151617d4; */
+		background-color: rgba(31, 33, 35, 0.432);
+		border-radius: 15px;
+
+		backdrop-filter: blur(10px);
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-bottom: 60px;
+		padding-top: 60px;
+		box-shadow: 0px 0px 30px black;
+		/* z-index: 1; */
+		/* background-color: cornsilk;; */
+		text-align: justify;
+	}
+
 	main {
 		background-color: #090909;
+		height: 0;
+		text-align: center;
+		/* background-color: aliceblue; */
 	}
 	canvas {
 		/* padding: 10px; */
+		background-attachment: fixed;
 		background-color: #090909;
+		position: fixed;
+		top: 0;
+		left: 0;
+		image-rendering: optimizeQuality;
+		z-index: -1;
 		/* border: 1px red solid; */
-		image-rendering: pixelated; /* Awesome future-browsers       */
+	}
+
+	.header-content {
+		font-family: 'Hack';
+		max-width: 800px;
+		/* height: 70px; */
+		background-repeat: repeat-x;
+		display: flex;
+		justify-content: space-between;
+		text-overflow: clip;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.nav-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 0;
+	}
+
+	.nav-item {
+		margin: 25px;
+		/* padding: 20px; */
+		text-align: center;
+		/* margin-right: 0; */
+	}
+
+	a {
+		font-family: Hack;
+		color: #ffffff;
+		text-decoration: none;
+		text-shadow: #000000 0 0 20px;
+		transition: text-shadow 0.2s;
+	}
+
+	a:visited {
+		color: #dddddd;
+	}
+
+	a:hover {
+		color: #dddddd;
+		text-decoration: underline;
+		text-shadow: #ebf0f2 0 0 20px;
+	}
+
+	.site-title {
+		margin: 20px;
+		margin-left: 0;
+		/* padding-left: 20px; */
+		font-size: larger;
+		/* text-align: center; */
+		vertical-align: bottom;
+		z-index: 0;
+	}
+
+	.item-left {
+		text-align: left;
+		padding: 0px;
+	}
+
+	.item-right {
+		text-align: right;
+		padding: 0px;
+	}
+
+	.footer {
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 800px;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+
+	@media screen and (max-width: 500px) {
+		.header-content {
+			/* border: 1px solid red; */
+			flex-direction: column;
+			height: 100px;
+		}
+
+		.site-title {
+			justify-content: center;
+			margin: 7px;
+		}
+
+		.nav-item {
+			margin: 8px;
+			/* margin-bottom: 8px; */
+		}
+
+		.nav-wrapper {
+			justify-content: space-evenly;
+		}
+
+		.overlay {
+			padding: 20px;
+		}
+	}
+
+	@media screen and (max-width: 720px) {
+		#pic-of-me {
+			float: none;
+			/* text-align: center; */
+			margin-right: 30px;
+			/* margin-left: 0; */
+			/* margin-right: 0; */
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		.item-left {
+			padding: 20px;
+		}
+
+		.item-right {
+			text-align: right;
+			padding: 20px;
+		}
 	}
 </style>

@@ -26,6 +26,7 @@ export class StarSprite {
 	color: Color;
 	x: number;
 	y: number;
+	z: number;
 	scale: number;
 	sprite_frame_index: number;
 	frame_change_probability: number;
@@ -35,12 +36,15 @@ export class StarSprite {
 	constructor() {
 		this.size = Math.random();
 		// this.size = Size.small;
-		this.scale = 4.0;
+		this.scale = 2.0;
+		// this.scale = (Math.floor(Math.random() * 2) / 2) + 2;
 		this.color = randomEnum(Color);
 		// this.color = Color.blue;
 		this.x = Math.random() * 2560;
 		this.y = Math.random() * 1440;
-		this.frame_change_probability = 0.002;
+		this.z = (Math.floor(Math.random() * 2) / 2) + 1;
+		// this.z = 2;
+		this.frame_change_probability = 0.003;
 		this.sprite_frame_index = this.random_sprite_frame();
 		// debugger
 
@@ -132,14 +136,17 @@ export class StarSprite {
 			this.maybe_change_frame();
 			// console.log(this);
 			// debugger;
-			ctx.drawImage(this.sprite_imgs[this.sprite_frame_index], 0, 0, 15, 15, this.x, this.y, 15 * this.scale, 15 * this.scale);
+			this.x = (this.x + (this.z + 0.5) * 0.5) % (ctx.canvas.width + 30) 
+			this.y = (this.y + (this.z + 1.0) * 0.5) % (ctx.canvas.height + 30);
+
+			ctx.drawImage(this.sprite_imgs[this.sprite_frame_index], 0, 0, 15, 15, this.x - 30, this.y - 30, 15 * this.scale * this.z, 15 * this.scale * this.z);
 		}
 	}
 
 	redraw(ctx: CanvasRenderingContext2D) {
 		// some of these values are hard coded!
 		if (this.complete) {
-			ctx.drawImage(this.sprite_imgs[this.sprite_frame_index], 0, 0, 15, 15, this.x, this.y, 15 * this.scale, 15 * this.scale);
+			ctx.drawImage(this.sprite_imgs[this.sprite_frame_index], 0, 0, 15, 15, this.x - 30, this.y - 30, 15 * this.scale * this.z, 15 * this.scale * this.z);
 		}
 	}
 }
