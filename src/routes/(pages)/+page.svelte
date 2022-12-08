@@ -6,14 +6,19 @@
 
 <title>aryadee</title>
 
-<Header />
+<!-- <Header /> -->
 
 <div class="main">
-	<h1  style="font-size: 1.7em;"> <span class="fancy-text">hello world</span> 🌎</h1>
+	<h1  style="font-size: 1.7em;"> // <span class="fancy-text">hello world</span> 🌎</h1>
 
 	<p>
-		I'm a computer engineer. I did my MS at UC Irvine in modeling multi-core SoCs. I code up and down the stack, write about technical minutiae, and make meaningless art.	
+		I'm a computer engineer. I code up and down the stack, write about technical minutiae, and make meaningless art.
+		<br> <br>
+		I've written about a lot of nerdy stuff, wrote a web app for filmic emulaiton, and h
+		I also made an analog film emulation web app called Filmic, which you can use here.
 	</p>
+
+	<!-- <h2>Select blog posts</h2> -->
 
 
 
@@ -41,7 +46,7 @@
 		<!-- <li>Tauri</li> -->
 	<!-- </ul> -->
 
-	<h2>posts</h2>
+	<h2>/// posts</h2>
 		<h3><a href="/filmic/about">about filmic image processing</a></h3>
 		<!-- <h3><a href="/filmic/about">about filmic image processing</a></h3> -->
 </div>
@@ -59,7 +64,7 @@ def function():
 	print('howdy')</code
 	></pre> -->
 
-<Footer />
+<!-- <Footer /> -->
 
 <!-- <div class="luminaire"></div> -->
 <style>

@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<Header />
+<!-- <Header /> -->
 
 <div class="container">
 	<div>
@@ -23,10 +23,14 @@
 	<p>{$page.error.message} :-(</p>
 </div>
 
-<Footer />
+<!-- <Footer /> -->
 
 <style>
 		@import '../main.css';
+
+	img {
+		margin: 20px;
+	}
 
 	.container {
 		text-align: center;

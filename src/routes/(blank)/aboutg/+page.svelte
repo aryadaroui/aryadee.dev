@@ -1,5 +1,4 @@
 <script lang="ts">
-	import type { Builder } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
 	import { StarSprite } from './StarSprite';
 	import { clamp } from '../filmic/functions';
@@ -166,17 +165,18 @@
 	});
 </script>
 
-<main>
-	<div class="header-content">
-		<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
-		<div class="nav-wrapper">
-			<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
-			<a class="nav-item" href="/filmic/">filmic</a>
-			<a class="nav-item" href="/art/" style="margin-right: 0px;">art</a>
-			<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
-		</div>
+<div class="header-content">
+	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
+	<div class="nav-wrapper">
+		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
+		<a class="nav-item" href="/filmic/">filmic</a>
+		<a class="nav-item" href="/art/" style="margin-right: 0px;">art</a>
+		<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
 	</div>
+</div>
 
+<main>
+<!-- <div> -->
 	<div class="overlay">
 		<h1>// about me</h1>
 		<div class="img-top-right">
@@ -191,36 +191,45 @@
 		<p>
 			My name is Arya. I am a computer engineer and I like to code.
 			<br /><br />
-			I did my master's at UC Irvine and my thesis was on modeling multi-core SoCs, advised by professor
-			Rainer Dömer.
+			I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised
+			by professor Rainer Dömer, doing research under the UCI CECS Lab.
 			<br /><br />
-			I have an affinity for signal processing: audio, image, data analysis, neural networks--basically
-			anything that needs an ndArray.
+			I have an affinity for signal processing: audio, image, data analysis--basically anything that
+			needs an <code>ndArray</code>.
 			<br /><br />
-			My hobbies match my code; in my spare time, I make music, digital art, and take photos.
+			My hobbies match my affinity; in my spare time, I make music, digital art, and take photos.
+			<br /><br />
+			I am currently looking for new work. If you'd like to get in touch, please email me at adaroui@uci.edu.
+			<br /><br />
+			Cheers.
+
 			<!-- <br /><br /> -->
 			<!-- P.S. Try resizing your browser window for some fun. -->
 		</p>
 	</div>
+<!-- </div> -->
+</main>
 
-	<div class="footer">
-		<div class="item-left">
-			<p>Arya "Dee" Daroui</p>
-			<a class="page-link" href="mailto: adaroui@uci.edu">adaroui@uci.edu</a>
-		</div>
-
-		<div class="item-right">
-			<p>Computer engineer</p>
-			<a class="page-link" href="/about">About me</a>
-		</div>
+<div class="footer">
+	<div class="item-left">
+		<p>Arya "Dee" Daroui</p>
+		<a class="page-link" href="mailto: adaroui@uci.edu">adaroui@uci.edu</a>
 	</div>
 
-	<canvas id="space" width="500" height="500" />
-</main>
+	<div class="item-right">
+		<p>Computer engineer</p>
+		<a class="page-link" href="/about">About me</a>
+	</div>
+</div>
+
+<canvas id="space" width="500" height="500" />
 
 <style>
 	:root {
 		background-color: #090909;
+	}
+	p {
+		font-size: 0.95em;
 	}
 
 	h1 {
@@ -265,6 +274,7 @@
 		border-radius: 15px;
 
 		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
 		padding-left: 80px;
 		padding-right: 80px;
 		padding-bottom: 60px;
@@ -272,15 +282,17 @@
 		box-shadow: 0px 0px 30px black;
 		/* z-index: 1; */
 		/* background-color: cornsilk;; */
-		text-align: justify;
+		text-align: left;
+		/* text-align: justify; */
 	}
 
 	main {
-		background-color: #090909;
-		height: 0;
-		text-align: center;
+		/* background-color: #090909; */
+		/* height: 0; */
+		/* text-align: center; */
 		/* background-color: aliceblue; */
 	}
+
 	canvas {
 		/* padding: 10px; */
 		background-attachment: fixed;
@@ -360,7 +372,7 @@
 	}
 
 	.footer {
-		padding: 0px;
+		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 800px;
@@ -405,7 +417,7 @@
 		}
 	}
 
-	@media screen and (max-width: 800px) {
+	/* @media screen and (max-width: 800px) {
 		.item-left {
 			padding: 20px;
 		}
@@ -414,5 +426,5 @@
 			text-align: right;
 			padding: 20px;
 		}
-	}
+	} */
 </style>

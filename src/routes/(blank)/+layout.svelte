@@ -9,7 +9,7 @@
 
 	:root {
 		font-family: Inter;
-		font-size: 16px;
+		/* font-size: 14px; */
 		line-height: 24px;
 		/* font-weight: 200; */
 		color: #eeeeee;

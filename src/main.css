@@ -14,7 +14,7 @@ code {
 p>code {
 	color: #fe72cb;
 	font-size: 1em;
-	background-color: #0d111786;
+	background-color: #232527cf;
 	border-radius: .3em;
 	padding: 4px 4px 4px;
     white-space: nowrap;
@@ -31,7 +31,7 @@ pre>code {
 
 body {
 	margin: auto;
-	background-color: #1c1d1e;
+	/* background-color: #1c1d1e; */
 }
 
 
