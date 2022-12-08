@@ -1,4 +1,6 @@
-<h1>// about me</h1>
+<title>aryadee | about me</title>
+
+<h1>// <span class="fancy-text">about me</span></h1>
 <div class="img-top-right">
 	<img
 		id="pic-of-me"
@@ -9,24 +11,22 @@
 	/>
 </div>
 <p>
-	My name is Arya. I am a computer engineer and I like to code.
+	I am a computer engineer and I like to code.
 	<br /><br />
-	I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised
-	by professor Rainer Dömer, doing research under the UCI CECS Lab.
+	I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised by professor <a href="http://www.cecs.uci.edu/~doemer/">Rainer Dömer</a>, doing research under the UCI CECS Lab.
 	<br /><br />
-	I have an affinity for signal processing: audio, image, data analysis--basically anything that
-	needs an <code>ndArray</code>.
+	I have an affinity for signal processing: audio, image, data analysis--basically anything that needs
+	an <code>ndArray</code>.
 	<br /><br />
 	My hobbies match my affinity; in my spare time, I make music, digital art, and take photos.
 	<br /><br />
-	I am currently looking for new work. If you'd like to get in touch, please email me at adaroui@uci.edu.
+	I am currently looking for new work. If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />
 	Cheers.
 
 	<!-- <br /><br /> -->
 	<!-- P.S. Try resizing your browser window for some fun. -->
 </p>
-
 
 <style>
 	p {
@@ -57,6 +57,18 @@
 		margin-left: 30px;
 		/* margin: 20px; */
 	}
+	@media screen and (max-width: 720px) {
+		.img-top-right {
+			padding: 20px;
+			/* border-radius: 0; */
+		}
 
-
+		#pic-of-me {
+			float: none;
+			/* text-align: center; */
+			margin-right: 30px;
+			/* margin-left: 0; */
+			/* margin-right: 0; */
+		}
+	}
 </style>

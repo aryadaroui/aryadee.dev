@@ -1,10 +1,10 @@
 <script>
-	import Header from '$lib/Header.svelte';
-	import Footer from '$lib/Footer.svelte';
+	import Header2 from '$lib/Header2.svelte';
+	import Footer2 from '$lib/Footer2.svelte';
 	import { page } from '$app/stores';
 </script>
 
-<!-- <Header /> -->
+<Header2 />
 
 <div class="container">
 	<div>
@@ -14,7 +14,6 @@
 			width="200px"
 		/>
 	</div>
-
 	<!-- <div class="error-message"> -->
 	<h1>{$page.status}</h1>
 	<!-- </div> -->
@@ -23,10 +22,14 @@
 	<p>{$page.error.message} :-(</p>
 </div>
 
-<!-- <Footer /> -->
+<Footer2 />
 
 <style>
-		@import '../main.css';
+	@import '../main.css';
+
+	:root {
+		background-color: #090909;
+	}
 
 	img {
 		margin: 20px;

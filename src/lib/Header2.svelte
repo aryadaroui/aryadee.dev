@@ -2,8 +2,8 @@
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
-		<a class="nav-item" href="/filmic/">filmic</a>
-		<a class="nav-item" href="/art/" style="margin-right: 0px;">art</a>
+		<a class="nav-item" href="/art/">art</a>
+		<a class="nav-item" href="/filmic/" style="margin-right: 0px;">filmic</a>
 		<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
 	</div>
 </div>

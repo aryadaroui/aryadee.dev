@@ -1,17 +1,23 @@
 <div class="footer">
 	<div class="item-left">
 		<p>Arya "Dee" Daroui</p>
-		<a class="page-link" href="mailto: adaroui@uci.edu">adaroui@uci.edu</a>
+		<a href="mailto: adaroui@uci.edu">adaroui@uci.edu</a>
 	</div>
 
 	<div class="item-right">
-		<p>Human person</p>
-		<a class="page-link" href="/about">About me</a>
+		<!-- <p>Human person</p> -->
+		<p>a person from planet Earth</p>
+		<a  href="/about">about me</a>
 	</div>
 </div>
 
 
 <style>
+	p {
+		color:#CCCCCC;
+		/* font-size: small; */
+	}
+
 		.item-left {
 		text-align: left;
 		padding: 0px;

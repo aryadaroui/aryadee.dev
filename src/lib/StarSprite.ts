@@ -136,8 +136,10 @@ export class StarSprite {
 			this.maybe_change_frame();
 			// console.log(this);
 			// debugger;
-			this.x = (this.x + (this.z + 0.5) * 0.5) % (ctx.canvas.width + 30) 
-			this.y = (this.y + (this.z + 1.0) * 0.5) % (ctx.canvas.height + 30);
+			// this.x = (this.x + (this.z + 0.5) * 0.5) % (ctx.canvas.width + 30) 
+			// this.y = (this.y + (this.z + 1.0) * 0.5) % (ctx.canvas.height + 30);
+			this.x = (this.x + (this.z + 0.5) * 0.5) % (2560);
+			this.y = (this.y + (this.z + 1.0) * 0.5) % (1440);
 
 			ctx.drawImage(this.sprite_imgs[this.sprite_frame_index], 0, 0, 15, 15, this.x - 30, this.y - 30, 15 * this.scale * this.z, 15 * this.scale * this.z);
 		}

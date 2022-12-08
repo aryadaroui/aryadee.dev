@@ -40,10 +40,19 @@ h1, h2, h3 {
 	color: #DDDDDD;
 }
 
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
 p {
 	font-family: Hack;
 	color: #DDDDDD;
-
+	font-size: 0.95em;
+	line-height: 1.7em;
 }
 
 a {

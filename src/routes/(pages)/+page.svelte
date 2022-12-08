@@ -9,13 +9,12 @@
 <!-- <Header /> -->
 
 <div class="main">
-	<h1  style="font-size: 1.7em;"> // <span class="fancy-text">hello world</span> 🌎</h1>
+	<h1  > // <span class="fancy-text">hello world</span> 🌎</h1>
 
 	<p>
-		I'm a computer engineer. I code up and down the stack, write about technical minutiae, and make meaningless art.
+		My name is Arya.
 		<br> <br>
-		I've written about a lot of nerdy stuff, wrote a web app for filmic emulaiton, and h
-		I also made an analog film emulation web app called Filmic, which you can use here.
+		I write nerdy stuff, am developing a web and desktop app for analog film emulation, and I make some meaningless art. I have some tech-related blog posts too.
 	</p>
 
 	<!-- <h2>Select blog posts</h2> -->
@@ -70,14 +69,24 @@ def function():
 <style>
 	/* @import '../main.css'; */
 
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+	}
 
 
-	.main {
+
+
+
+	/* .main {
 		max-width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 20px;
-	}
+	} */
 
 	/* @import '../github-dark.min.css'; */
 

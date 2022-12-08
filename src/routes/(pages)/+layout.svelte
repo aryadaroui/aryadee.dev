@@ -235,9 +235,11 @@
 
 	<!-- <div class="main"> -->
 	<main>
+		<div class="overlay-pad">
 		<div class="overlay">
 			<slot />
 		</div>
+	</div>
 	</main>
 	<!-- </div> -->
 
@@ -263,6 +265,8 @@
 		background-color: #090909;
 	}
 
+
+
 	#space {
 		/* padding: 10px; */
 		background-attachment: fixed;
@@ -275,6 +279,9 @@
 		/* border: 1px red solid; */
 	}
 
+	.overlay-pad {
+		padding: 0px 20px 0px;
+	}
 
 	.overlay {
 		/* color: aliceblue; */
@@ -295,14 +302,26 @@
 
 		backdrop-filter: blur(10px);
 		-webkit-backdrop-filter: blur(10px);
-		padding-left: 80px;
-		padding-right: 80px;
-		padding-bottom: 60px;
-		padding-top: 60px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 40px;
+		padding-top: 40px;
 		box-shadow: 0px 0px 30px black;
 		/* z-index: 1; */
 		/* background-color: cornsilk;; */
 		text-align: left;
 		/* text-align: justify; */
 	}
+
+
+	@media screen and (max-width: 500px) {
+
+		.overlay {
+			padding: 20px;
+			/* border-radius: 0; */
+		}
+
+	}
+
+
 </style>
