@@ -67,10 +67,7 @@
 <hr>
 
 <style>
-	p {
-		font-size: 0.95em;
-		line-height: 1.5em;
-	}
+
 
 	h1 {
 		font-size: 1.5em;
