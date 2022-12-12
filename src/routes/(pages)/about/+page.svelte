@@ -1,6 +1,6 @@
 <title>aryadee | about me</title>
 
-<h1>// <span class="fancy-text">about me</span></h1>
+<h1>// <span class="fancy-text">about me</span> 🦧</h1>
 <div class="img-top-right">
 	<img
 		id="pic-of-me"
@@ -18,7 +18,7 @@
 	I have an affinity for signal processing: audio, image, data analysis--basically anything that needs
 	an <code>ndArray</code>.
 	<br /><br />
-	My hobbies match my affinity; in my spare time, I make music, digital art, and take photos.
+	Appropriately, in my spare time, I make music, digital art, and take photos.
 	<br /><br />
 	I am currently looking for new work. If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />

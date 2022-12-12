@@ -1,12 +1,10 @@
 <script lang="ts">
-	// import Header from '../lib/Header.svelte';
-	// import Header from "$lib/Header.svelte";
 	import Header2 from '$lib/Header2.svelte';
 	import Footer2 from '$lib/Footer2.svelte';
-	// import Footer from "$lib/Footer.svelte";
-	import hljs from 'highlight.js';
-	import { CodeLineNumbers } from 'code-line-numbers';
+	// import { CodeLineNumbers } from 'code-line-numbers';
 	import { afterNavigate } from '$app/navigation';
+	import hljs from 'highlight.js';
+
 
 
 
@@ -124,7 +122,8 @@
 	}
 
 	onMount(() => {
-		const fps = 24;
+		
+		const fps = 30;
 		let w;
 		let h;
 		const canvas = document.getElementById('space') as HTMLCanvasElement;
@@ -153,11 +152,11 @@
 		function animate() {
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 			// perform some animation task here
-			ctx.fillStyle = `rgba(10,11,12, ${opacity})`;
-			ctx.fillRect(0, 0, canvas.width, canvas.height);
+			// ctx.fillStyle = `rgba(9,9,9, ${opacity})`;
+			// ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 			draw_sprite_stars(ctx, blue_stars);
-			ctx.fillStyle = `rgba(9,9,9, ${opacity})`;
+			ctx.fillStyle = `rgba(0, 0, 0, ${opacity})`;
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 			opacity = clamp(opacity - 0.05, 0.0, 1.0);
@@ -211,7 +210,7 @@
 		if (navigating.from?.route.id != navigating.to?.route.id) {
 			hljs.highlightAll();
 			// debugger
-			CodeLineNumbers.addCodeLineNumbers();
+			// CodeLineNumbers.addCodeLineNumbers();
 
 			// let script = document.createElement('script');
 			// script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';

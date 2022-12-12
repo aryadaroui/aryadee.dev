@@ -1,6 +1,6 @@
 <title>aryadee | art</title>
 
-<h1>// <span class="fancy-text">art</span></h1>
+<h1>// <span class="fancy-text">art</span> 🎨</h1>
 
 <hr>
 

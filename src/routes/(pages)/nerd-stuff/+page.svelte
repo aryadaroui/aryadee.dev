@@ -1,7 +1,7 @@
 
 <title>aryadee | nerd stuff</title>
 
-<h1 >// <span class="fancy-text">nerd stuff</span></h1>
+<h1 >// <span class="fancy-text">nerd stuff</span> 📄</h1>
 <p>Some general academic content I've written over the years.</p>
 <ol>
 	<li>modeling a multi-core checkerboard SoC with SystemC.pdf, my MS thesis</li>
@@ -25,7 +25,7 @@
 	<li>lab 5: op-amp systems.pdf</li>
 	<li>lab 7: harmonic oscillator.pdf</li>
 </ol>
-<p style="font-size: 0.7em;">If you'd like the other lab prompts please contact me. They contain material I cannot share publically.
+<p style="font-size: 0.7em;">If you'd like the other lab prompts, please contact me; they contain material I cannot share publicly.
 </p>
 
 

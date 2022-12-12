@@ -170,13 +170,62 @@ float interp_alpha_shift(float x);
 vec3 hsv_tex;
 vec3 rgb_tex;
 
-vec3 hsl2rgb(vec3 HSL) {
+const float EPSILON = 1e-10;
+
+
+vec3 hsl2rgb2(vec3 HSL) {
 	float R = abs(HSL.x * 6.0 - 3.0) - 1.0;
 	float G = 2.0 - abs(HSL.x * 6.0 - 2.0);
 	float B = 2.0 - abs(HSL.x * 6.0 - 4.0);
 	vec3 RGB = clamp(vec3(R, G, B), 0.0, 1.0);
 	float C = (1.0 - abs(2.0 * HSL.z - 1.0)) * HSL.y;
 	return (RGB - 0.5) * C + HSL.z;
+}
+
+
+vec3 HUEtoRGB( float hue)
+{
+    // Hue [0..1] to RGB [0..1]
+    // See http://www.chilliant.com/rgb2hsv.html
+    vec3 rgb = abs(hue * 6. - vec3(3, 2, 4)) * vec3(1, -1, -1) + vec3(-1, 2, 2);
+    return clamp(rgb, 0., 1.);
+}
+
+vec3 RGBtoHCV(in vec3 rgb)
+{
+    // RGB [0..1] to Hue-Chroma-Value [0..1]
+    // Based on work by Sam Hocevar and Emil Persson
+    vec4 p = (rgb.g < rgb.b) ? vec4(rgb.bg, -1., 2. / 3.) : vec4(rgb.gb, 0., -1. / 3.);
+    vec4 q = (rgb.r < p.x) ? vec4(p.xyw, rgb.r) : vec4(rgb.r, p.yzx);
+    float c = q.x - min(q.w, q.y);
+    float h = abs((q.w - q.y) / (6. * c + EPSILON) + q.z);
+    return vec3(h, c, q.x);
+}
+
+vec3 hsl2rgb3(vec3 hsl)
+{
+    // Hue-Saturation-Lightness [0..1] to RGB [0..1]
+    vec3 rgb = HUEtoRGB(hsl.x);
+    float c = (1. - abs(2. * hsl.z - 1.)) * hsl.y;
+    return (rgb - 0.5) * c + hsl.z;
+}
+
+vec3 rgb2hsl3(in vec3 rgb)
+{
+    // RGB [0..1] to Hue-Saturation-Lightness [0..1]
+    vec3 hcv = RGBtoHCV(rgb);
+    float z = hcv.z - hcv.y * 0.5;
+    float s = hcv.y / (1. - abs(z * 2. - 1.) + EPSILON);
+    return vec3(hcv.x, s, z);
+}
+
+
+
+vec3 hsl2rgb( vec3 c )
+{
+    vec3 rgb = clamp( abs(mod(c.x*6.0+vec3(0.0,4.0,2.0),6.0)-3.0)-1.0, 0.0, 1.0 );
+
+    return c.z + c.y * (rgb-0.5)*(1.0-abs(2.0*c.z-1.0));
 }
 
 vec3 rgb2hsl(vec3 c) {
@@ -254,20 +303,33 @@ void main() {
 	);
 
 
-	hsv_tex = rgb2hsv(toned_rgb);
+	// // // HSV
+	// hsv_tex = rgb2hsv(toned_rgb);
+	// grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
+	// grain_value = offset + intensity * grain_value;
+
+	// rgb_tex = hsv2rgb(vec3(
+	// 	hsv_tex.x + interp_hue_shift(hsv_tex.x),
+	// 	clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
+	// 	clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
+	// ));
+
+
+	// // // HSL
+	hsv_tex = rgb2hsl3(toned_rgb);
 	grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
 	grain_value = offset + intensity * grain_value;
 
-	// rgb_tex = hsv2rgb(vec3(
-	// 	hsv_tex.x,
-	// 	hsv_tex.y,
-	// 	hsv_tex.z - interp_tone_response(hsv_tex.z) * grain_value
-	// ));
-	rgb_tex = hsv2rgb(vec3(
+	rgb_tex = hsl2rgb3(vec3(
 		hsv_tex.x + interp_hue_shift(hsv_tex.x),
 		clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
 		clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
 	));
+
+
+
+
+
 
 	// hsl_tex = rgbToHsluv(texel.rgb);
 
