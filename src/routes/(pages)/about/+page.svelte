@@ -6,8 +6,6 @@
 		id="pic-of-me"
 		src="me_looking_like_im_an_action_movie_hero_who_is_in_disguise.webp"
 		alt="Me looking like I'm an action movie hero who is in disguise because I'm wearing a hat and sunglasses."
-		width="300"
-		height="300"
 	/>
 </div>
 <p>
@@ -48,6 +46,8 @@
 
 	#pic-of-me {
 		float: right;
+		width: 300px;
+		height: 300px;
 
 		/* position: absolute;
 		top: 70px;
@@ -65,10 +65,13 @@
 
 		#pic-of-me {
 			float: none;
+			width: 200px;
+			height: 200px;
 			/* text-align: center; */
-			margin-right: 30px;
-			/* margin-left: 0; */
+			/* margin-right: 30px; */
+			margin-left: 0;
 			/* margin-right: 0; */
 		}
+
 	}
 </style>

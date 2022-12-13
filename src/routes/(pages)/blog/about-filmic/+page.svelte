@@ -93,8 +93,7 @@
 <h2>Related and Future works</h2>
 
 <p>
-	Filmic's feature is firmly set in its niche of film emulation, so updates will revolve around
-	that. The list of todos are:
+	Filmic's feature list is firmly set in its niche of film emulation. The list of todos are:
 </p>
 
 <ul>
@@ -116,7 +115,7 @@
 </ul>
 
 <p>
-	If what you're looking for is outside of this scope, there is plenty of cool (premium) that I recommend:
+	If what you're looking for is outside of this scope, there are plenty of cool (premium) software that I recommend:
 </p>
 	<ul>
 		<li><a href="https://www.dehancer.com/">Dehancer</a></li>
