@@ -50,7 +50,7 @@
 	<!-- </ul> -->
 
 	<h2>/// posts</h2>
-	<h3><a href="/filmic/about">about filmic image processing</a></h3>
+	<h3><a href="/blog/about-filmic">about Filmic</a></h3>
 	<!-- <h3><a href="/filmic/about">about filmic image processing</a></h3> -->
 </div>
 

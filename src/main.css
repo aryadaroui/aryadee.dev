@@ -6,6 +6,18 @@
 	color: #DDDDDD;
 }
 
+ol {
+	font-family: hack;
+	font-size: 0.94em;
+	color: #DDDDDD;
+}
+
+ul {
+	font-family: hack;
+	font-size: 0.94em;
+	color: #DDDDDD;
+}
+
 code {
 	font-family: Hack;
 	font-size: small;

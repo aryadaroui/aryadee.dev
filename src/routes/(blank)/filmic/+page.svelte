@@ -476,7 +476,7 @@
 
 		<div id="sidebar">
 			<div class="header">
-				<p>Filmic v0.3 · <a href="/filmic/about">About</a> · <a href="/">Home</a></p>
+				<p>Filmic v0.3 · <a href="/blog/about-filmic">About</a> · <a href="/">Home</a></p>
 				<input
 					type="file"
 					id="file-input"

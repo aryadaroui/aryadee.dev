@@ -304,27 +304,27 @@ void main() {
 
 
 	// // // HSV
-	// hsv_tex = rgb2hsv(toned_rgb);
-	// grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
-	// grain_value = offset + intensity * grain_value;
-
-	// rgb_tex = hsv2rgb(vec3(
-	// 	hsv_tex.x + interp_hue_shift(hsv_tex.x),
-	// 	clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
-	// 	clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
-	// ));
-
-
-	// // // HSL
-	hsv_tex = rgb2hsl3(toned_rgb);
+	hsv_tex = rgb2hsv(toned_rgb);
 	grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
 	grain_value = offset + intensity * grain_value;
 
-	rgb_tex = hsl2rgb3(vec3(
+	rgb_tex = hsv2rgb(vec3(
 		hsv_tex.x + interp_hue_shift(hsv_tex.x),
 		clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
 		clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
 	));
+
+
+	// // // HSL
+	// hsv_tex = rgb2hsl3(toned_rgb);
+	// grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
+	// grain_value = offset + intensity * grain_value;
+
+	// rgb_tex = hsl2rgb3(vec3(
+	// 	hsv_tex.x + interp_hue_shift(hsv_tex.x),
+	// 	clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
+	// 	clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
+	// ));
 
 
 
