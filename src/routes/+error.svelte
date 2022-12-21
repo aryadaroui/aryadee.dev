@@ -26,7 +26,10 @@
 
 <style>
 	@import '../main.css';
-		@import '../github-dark.min.css';
+	@import '../github-dark.min.css';
+
+
+	@import url('https://fonts.cdnfonts.com/css/swiss-721-3');
 
 
 	@font-face {

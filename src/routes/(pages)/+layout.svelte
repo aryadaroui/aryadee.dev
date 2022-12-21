@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Header2 from '$lib/Header2.svelte';
 	import Footer2 from '$lib/Footer2.svelte';
+	// import { fade } from 'svelte/transition'
+
 	// import { CodeLineNumbers } from 'code-line-numbers';
 	import { afterNavigate } from '$app/navigation';
 	import hljs from 'highlight.js';
@@ -11,6 +13,7 @@
 	import { onMount } from 'svelte';
 	import { StarSprite } from '$lib/StarSprite';
 	import { clamp } from '$lib/functions';
+	import { curveBumpX } from 'd3';
 
 	// maybe + symbols in the corner like in MWII UI flourishes
 
@@ -129,8 +132,8 @@
 		const canvas = document.getElementById('space') as HTMLCanvasElement;
 		const ctx = canvas.getContext('2d')!;
 		const setCanvasExtents = () => {
-			w = window.innerWidth - 5;
-			h = window.innerHeight - 10;
+			w = window.innerWidth - 2;
+			h = window.innerHeight - 2;
 			canvas.width = w;
 			canvas.height = h;
 		};
@@ -138,6 +141,7 @@
 		setCanvasExtents();
 		window.onresize = () => {
 			setCanvasExtents();
+			// opacity = 1.0;
 			ctx.imageSmoothingEnabled = false;
 			redraw_sprite_stars(ctx, blue_stars);
 		};
@@ -158,8 +162,11 @@
 			draw_sprite_stars(ctx, blue_stars);
 			ctx.fillStyle = `rgba(0, 0, 0, ${opacity})`;
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
-
 			opacity = clamp(opacity - 0.05, 0.0, 1.0);
+
+			ctx.font = "32px Comic Sans MS";
+			ctx.fillStyle = 'red';
+			ctx.fillText("why are you breaking my website", 2000, 2000);
 
 			setTimeout(() => {
 				requestAnimationFrame(animate);
@@ -230,12 +237,12 @@
 
 <div>
 	<!-- <Header /> -->
-	<Header2 />
+	<Header2/>
 
 	<!-- <div class="main"> -->
 	<main>
 		<div class="overlay-pad">
-		<div class="overlay">
+		<div class="overlay" >
 			<slot />
 		</div>
 	</div>
@@ -273,7 +280,7 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		image-rendering: optimizeQuality;
+		/* image-rendering: optimizeQuality; */
 		z-index: -1;
 		/* border: 1px red solid; */
 	}
@@ -296,7 +303,7 @@
 		/* height: calc(100vh - 160px); */
 		/* bottom: 0; */
 		/* background-color: #151617d4; */
-		background-color: rgba(31, 33, 35, 0.432);
+		background-color: rgba(31, 35, 39, 0.432);
 		border-radius: 15px;
 
 		backdrop-filter: blur(10px);

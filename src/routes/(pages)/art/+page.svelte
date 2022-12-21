@@ -7,24 +7,24 @@
 <h2>/// photos</h2>
 
 <div class="nice-pic-container">
-	<img class="nice-pic" src="/mountain2.webp" alt="a mountain with clouds pushing over its peak" />
+	<img class="nice-pic" src="/art/mountain2.webp" alt="a mountain with clouds pushing over its peak" />
 	<img
 		class="nice-pic"
-		src="/aerial.webp"
+		src="/art/aerial.webp"
 		alt="an aerial shot of a large ship approaching the the port bay of a small island"
 	/>
-	<img class="nice-pic" src="/city.webp" alt="the center of a mediuml-sized cityscape" />
+	<img class="nice-pic" src="/art/city.webp" alt="the center of a mediuml-sized cityscape" />
 	<img
 		class="nice-pic"
-		src="/building.webp"
+		src="/art/building.webp"
 		alt="a tall building standing prominently against the sky"
 	/>
 	<img
 		class="nice-pic"
-		src="/flowers.webp"
+		src="/art/flowers.webp"
 		alt="a close-up shot of a buoquet of flowers, with many of the flowers out of focus"
 	/>
-	<img class="nice-pic" src="/sky2.webp" alt="powerlines standing prominelty against the sky" />
+	<img class="nice-pic" src="/art/sky2.webp" alt="powerlines standing prominelty against the sky" />
 </div>
 
 <hr />
@@ -34,32 +34,32 @@
 <div class="nice-pic-container">
 	<img
 		class="nice-pic"
-		src="/untitled1.jpg"
+		src="/art/untitled1.jpg"
 		alt="two opposite, abstract shapes with diffuse, grainy texture"
 	/>
 	<img
 		class="nice-pic"
-		src="/untitled2.jpg"
+		src="/art/untitled2.jpg"
 		alt="lines radiating from the corner hit an abstract shape, where the lines turn parallel"
 	/>
 	<img
 		class="nice-pic"
-		src="/untitled3.jpg"
+		src="/art/untitled3.jpg"
 		alt="a colorful circle or sphere standing against a dark background, familiar to a planet"
 	/>
 	<img
 		class="nice-pic"
-		src="/spindrift1.jpg"
+		src="/art/spindrift1.jpg"
 		alt="a glitched, colorful jellyfish drifting through space"
 	/>
 	<img
 		class="nice-pic"
-		src="/waves.jpg"
+		src="/art/waves.jpg"
 		alt="light, abstract, wavy shapes spread agaisnt a bright pink field"
 	/>
 	<img
 		class="nice-pic"
-		src="/cult.jpg"
+		src="/art/cult.jpg"
 		alt="the visage of a person partially blocked by a hand fan, and pixelation"
 	/>
 </div>

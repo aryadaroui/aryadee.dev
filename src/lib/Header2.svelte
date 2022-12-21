@@ -10,7 +10,7 @@
 
 <style>
 	.header-content {
-		font-family: 'Hack';
+		/* font-family: 'Hack'; */
 		max-width: 800px;
 		/* height: 70px; */
 		background-repeat: repeat-x;
@@ -39,6 +39,8 @@
 
 	a {
 		font-family: Hack;
+		/* font-family: 'Swiss 721'; */
+		/* font-weight: 900; */
 		color: #ffffff;
 		text-decoration: none;
 		text-shadow: #000000 0 0 20px;

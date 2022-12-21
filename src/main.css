@@ -7,68 +7,87 @@
 }
 
 ol {
-	font-family: hack;
-	font-size: 0.94em;
+	/* font-family: hack; */
+	/* font-size: 0.98em; */
+	font-family: 'Swiss 721';
+	line-height: 1.5em;
 	color: #DDDDDD;
 }
 
 ul {
-	font-family: hack;
-	font-size: 0.94em;
+	/* font-family: hack;
+	font-size: 0.94em; */
+	font-family: 'Swiss 721';
+	line-height: 1.5em;
 	color: #DDDDDD;
 }
 
 code {
 	font-family: Hack;
-	font-size: small;
 }
 
 p>code {
 	color: #fe72cb;
-	font-size: 1em;
-	background-color: #232527cf;
+	font-size: 0.9em;
+	background-color: #222b34d7;
 	border-radius: .3em;
 	padding: 4px 4px 4px;
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
 pre>code {
 	border-radius: 10px;
-	overflow-x:scroll;
+	font-size: 0.85em;
+	overflow-x: scroll;
 	scrollbar-width: thin;
-	box-shadow:  0px 0px 10px 0px #070707;
-	background-color: 0D1117;
+	box-shadow: 0px 0px 15px 0px #070707;
+	background-color: #0d1117;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 
 body {
 	margin: auto;
+	font-size: 0.9em;
 	/* background-color: #1c1d1e; */
 }
 
 
-h1, h2, h3 {
-	font-family: Hack;
+h1,
+h2,
+h3 {
+	/* font-family: hack; */
+	font-family: 'Swiss 721';
 	color: #DDDDDD;
 }
 
 h1 {
 	font-size: 1.7em;
+	font-weight: 900;
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 600;
 }
 
 p {
-	font-family: Hack;
+	/* font-family: Hack; */
+	/* font-size: 0.95em; */
+	font-family: 'Swiss 721';
+	font-size: 1.05em;
 	color: #DDDDDD;
-	font-size: 0.95em;
-	line-height: 1.7em;
+	line-height: 1.5em;
 }
 
 a {
-	font-family: Hack;
+	/* font-family: Hack; */
 	color: #00b8eb;
 	text-decoration: none;
 }
@@ -109,14 +128,11 @@ a:hover {
 	--color-white: hsl(0, 0%, 100%);
 	--color-rose: hsl(330, 100%, 75%);
 	--color-turquoise: hsl(190, 100%, 75%);
-	background: linear-gradient(
-			-45deg,
+	background: linear-gradient(-45deg,
 			var(--color-white),
 			var(--color-rose),
 			var(--color-turquoise),
-			var(--color-white)
-		)
-		0 0 / var(--bg-size) 100%;
+			var(--color-white)) 0 0 / var(--bg-size) 100%;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -127,4 +143,35 @@ a:hover {
 	to {
 		background-position: var(--bg-size) 0;
 	}
+}
+
+.styled-table {
+	border-collapse: collapse;
+	background-color: #10151ddf;
+	font-size: 0.9em;
+	font-family: hack;
+	color: #CCCCCC;
+	min-width: 300px;
+	box-shadow: 0px 0px 15px 0px #070707;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.styled-table thead tr {
+	background-color: #272e39cb;
+	color: #ffffff;
+	text-align: left;
+	text-align: center;
+	/* border-radius: 10px; */
+}
+
+.styled-table th,
+.styled-table td {
+	padding: 12px 15px;
+	border-radius: 10px;
 }

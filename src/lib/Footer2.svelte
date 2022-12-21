@@ -16,6 +16,13 @@
 	p {
 		color:#CCCCCC;
 		/* font-size: small; */
+		font-weight: 300;
+	}
+
+	a {
+		font-family: Hack;
+		/* font-family: 'Swiss 721'; */
+		/* font-weight: 300; */
 	}
 
 		.item-left {

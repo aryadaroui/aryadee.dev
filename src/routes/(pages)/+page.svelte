@@ -1,5 +1,4 @@
 <script>
-
 	import { math, display } from 'mathlifier';
 	import hljs from 'highlight.js';
 	import { onMount } from 'svelte';
@@ -14,7 +13,7 @@
 <!-- <Header /> -->
 
 <div class="main">
-	<h1>// <span class="fancy-text">hello world</span> 🌎</h1>
+	<h1><span class="fancy-text">hello world</span> 🌎</h1>
 
 	<p>
 		My name is Arya.
@@ -49,9 +48,13 @@
 	<!-- <li>Tauri</li> -->
 	<!-- </ul> -->
 
-	<h2>/// posts</h2>
+	<h2>posts</h2>
+	<h3>
+		<a href="/blog/filmic-devblog0-testing-features-in-python">
+			filmic devblog 0: testing-features-in-python</a>
+	</h3>
 	<h3><a href="/blog/about-filmic">about Filmic</a></h3>
-	<!-- <h3><a href="/filmic/about">about filmic image processing</a></h3> -->
+	<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
 </div>
 
 <!-- {@html display('\\int_0^1 f(x) \\, \\mathrm{d}x')} -->
@@ -82,11 +85,14 @@ def function():
 		font-size: 1.3em;
 	}
 
+	h3>a {
+		font-family: 'Swiss 721';
+	}
+
 	/* .main {
 		max-width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 20px;
 	} */
-
 </style>
