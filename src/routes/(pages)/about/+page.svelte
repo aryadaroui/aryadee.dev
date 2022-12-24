@@ -1,6 +1,6 @@
 <title>aryadee | about me</title>
 
-<h1>// <span class="fancy-text">about me</span> 🦧</h1>
+<h1><span class="fancy-text">about me</span> 🦧</h1>
 <div class="img-top-right">
 	<img
 		id="pic-of-me"
@@ -27,14 +27,14 @@
 </p>
 
 <style>
-	p {
+	/* p {
 		font-size: 0.95em;
 		line-height: 1.5em;
 	}
 
 	h1 {
 		font-size: 1.5em;
-	}
+	} */
 
 	.img-top-right {
 		text-align: center;

@@ -9,7 +9,9 @@
 ol {
 	/* font-family: hack; */
 	/* font-size: 0.98em; */
+	font-size: 1.1em;
 	font-family: 'Swiss 721';
+	font-weight: 300;
 	line-height: 1.5em;
 	color: #DDDDDD;
 }
@@ -17,7 +19,9 @@ ol {
 ul {
 	/* font-family: hack;
 	font-size: 0.94em; */
+	font-size: 1.1em;
 	font-family: 'Swiss 721';
+	font-weight: 300;
 	line-height: 1.5em;
 	color: #DDDDDD;
 }
@@ -68,26 +72,36 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.55em;
 	font-weight: 800;
+	/* background-color: #272e3976; */
+	/* border-radius: 0 20px 20px 0; */
+		/* border-radius: 10px 0 0 10px; */
+		border-radius: 10px;
+	line-height: 1.7em;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0) , #272e39cb);
+	padding-left: 10px;
+	/* box-shadow: 0px 0px 5px 0px #070707; */
 }
 
 h3 {
-	font-size: 1.2em;
-	font-weight: 600;
+	font-size: 1.4em;
+	font-weight: 700;
 }
 
 p {
 	/* font-family: Hack; */
 	/* font-size: 0.95em; */
 	font-family: 'Swiss 721';
-	font-size: 1.05em;
+	font-size: 1.1em;
 	color: #DDDDDD;
 	line-height: 1.5em;
+	font-weight: 300;
 }
 
 a {
 	/* font-family: Hack; */
+	font-family: 'Swiss 721';
 	color: #00b8eb;
 	text-decoration: none;
 }
@@ -145,7 +159,7 @@ a:hover {
 	}
 }
 
-.styled-table {
+table {
 	border-collapse: collapse;
 	background-color: #10151ddf;
 	font-size: 0.9em;
@@ -162,7 +176,7 @@ a:hover {
 	text-align: center;
 }
 
-.styled-table thead tr {
+table thead tr {
 	background-color: #272e39cb;
 	color: #ffffff;
 	text-align: left;
@@ -170,8 +184,8 @@ a:hover {
 	/* border-radius: 10px; */
 }
 
-.styled-table th,
-.styled-table td {
+table th,
+table td {
 	padding: 12px 15px;
 	border-radius: 10px;
 }

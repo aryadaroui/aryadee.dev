@@ -16,7 +16,8 @@
 	p {
 		color:#CCCCCC;
 		/* font-size: small; */
-		font-weight: 300;
+		font-size: 1.05em;
+		font-weight: 200;
 	}
 
 	a {

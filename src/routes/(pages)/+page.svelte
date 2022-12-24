@@ -51,7 +51,11 @@
 	<h2>posts</h2>
 	<h3>
 		<a href="/blog/filmic-devblog0-testing-features-in-python">
-			filmic devblog 0: testing-features-in-python</a>
+			filmic devblog 1: film grain and halation</a>
+	</h3>
+	<h3>
+		<a href="/blog/filmic-devblog0-tone-curve-and-color-response">
+			filmic devblog 0: tone curve and color response</a>
 	</h3>
 	<h3><a href="/blog/about-filmic">about Filmic</a></h3>
 	<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
@@ -77,13 +81,13 @@ def function():
 	/* @import '../main.css'; */
 	/* @import '../github-dark.min.css'; */
 
-	h1 {
+	/* h1 {
 		font-size: 1.5em;
 	}
 
 	h2 {
 		font-size: 1.3em;
-	}
+	} */
 
 	h3>a {
 		font-family: 'Swiss 721';

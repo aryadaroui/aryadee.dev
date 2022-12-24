@@ -555,8 +555,9 @@
 	}
 
 	main {
-		font-family: Inter;
+		font-family: 'swiss 721';
 		font-weight: 100;
+		letter-spacing: 0.1em;
 		text-align: center;
 		-webkit-user-select: none; /* Safari */
 		-ms-user-select: none; /* IE 10 and IE 11 */
@@ -564,7 +565,7 @@
 	}
 
 	a {
-		font-family: Inter;
+		font-family: 'swiss 721';
 		font-weight: 200;
 		-webkit-user-select: none; /* Safari */
 		-ms-user-select: none; /* IE 10 and IE 11 */
@@ -572,19 +573,23 @@
 	}
 
 	p {
-		font-family: Inter;
+		font-family: 'swiss 721';
 		font-weight: 200;
+		letter-spacing: 0.1em;
 		-webkit-user-select: none; /* Safari */
 		-ms-user-select: none; /* IE 10 and IE 11 */
 		user-select: none; /* Standard syntax */
 	}
 
 	h2 {
-		font-family: Inter;
+		font-family: 'swiss 721';
 		font-weight: 200;
 		-webkit-user-select: none; /* Safari */
 		-ms-user-select: none; /* IE 10 and IE 11 */
 		user-select: none; /* Standard syntax */
+
+		background-image: none;
+		box-shadow: none;
 	}
 
 	#content-container {
