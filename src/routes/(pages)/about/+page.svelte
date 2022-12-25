@@ -1,6 +1,6 @@
 <title>aryadee | about me</title>
 
-<h1><span class="fancy-text">about me</span> 🦧</h1>
+<h1><span class="fancy-text">About me</span> 🦧</h1>
 <div class="img-top-right">
 	<img
 		id="pic-of-me"

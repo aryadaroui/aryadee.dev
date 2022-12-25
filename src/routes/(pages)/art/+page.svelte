@@ -1,10 +1,10 @@
 <title>aryadee | art</title>
 
-<h1><span class="fancy-text">art</span> 🎨</h1>
+<h1><span class="fancy-text">Art</span> 🎨</h1>
 
 <!-- <hr> -->
 
-<h2>photos</h2>
+<h2>Photos</h2>
 
 <div class="nice-pic-container">
 	<img class="nice-pic" src="/art/mountain2.webp" alt="a mountain with clouds pushing over its peak" />
@@ -29,7 +29,7 @@
 
 <!-- <hr /> -->
 
-<h2>digital</h2>
+<h2>Digital</h2>
 
 <div class="nice-pic-container">
 	<img

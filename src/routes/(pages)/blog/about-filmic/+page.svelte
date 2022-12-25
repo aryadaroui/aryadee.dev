@@ -2,7 +2,7 @@
 
 <title>aryadee | blog | about filmic</title>
 
-<h1 > <span class="fancy-text">about Filmic</span> 📷</h1>
+<h1 > <span class="fancy-text">About Filmic</span> 📷</h1>
 
 <p>
 	Filmic is a photo-editing app with features to mimic the look of analog film. It's built with <a href="https:en.wikipedia.org/wiki/WebGL">WebGL 2</a> for processing, <a href="https:d3js.org/">D3.js</a> for UI, and <a href="https:svelte.dev/">Svelte</a> for component modularization. As of v0.3, its main features are:

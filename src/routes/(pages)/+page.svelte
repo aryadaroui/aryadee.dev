@@ -13,7 +13,7 @@
 <!-- <Header /> -->
 
 <div class="main">
-	<h1><span class="fancy-text">hello world</span> 🌎</h1>
+	<h1><span class="fancy-text">Hello world</span> 🌎</h1>
 
 	<p>
 		My name is Arya.
@@ -48,16 +48,16 @@
 	<!-- <li>Tauri</li> -->
 	<!-- </ul> -->
 
-	<h2>posts</h2>
+	<h2>Posts</h2>
 	<h3>
-		<a href="/blog/filmic-devblog0-testing-features-in-python">
-			filmic devblog 1: film grain and halation</a>
+		<a href="/blog/filmic-devblog1-film-grain-and-halation">
+			Filmic devblog 1: film grain and halation</a>
 	</h3>
 	<h3>
 		<a href="/blog/filmic-devblog0-tone-curve-and-color-response">
-			filmic devblog 0: tone curve and color response</a>
+			Filmic devblog 0: tone curve and color response</a>
 	</h3>
-	<h3><a href="/blog/about-filmic">about Filmic</a></h3>
+	<h3><a href="/blog/about-filmic">About Filmic</a></h3>
 	<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
 </div>
 

@@ -1,7 +1,7 @@
 
 <title>aryadee | nerd stuff</title>
 
-<h1 ><span class="fancy-text">nerd stuff</span> 📄</h1>
+<h1 ><span class="fancy-text">Nerd stuff</span> 📄</h1>
 <p>Some general academic content I've written over the years.</p>
 
 
@@ -10,7 +10,7 @@
 	<li><a href="/nerd-stuff/iess paper.pdf">demonstrating scalability of the checkerboard GPC with SystemC TLM.pdf</a>, publication with UCI CECS Lab.</li>
 </ol>
 
-<h2>signal and data processing</h2>
+<h2>Signal and data processing</h2>
 <ol>
 	<li><a href="/nerd-stuff/smart upres.pdf">super sampling neural network slideshow.pdf</a></li>
 	<li><a href="/nerd-stuff/classification cnn.pdf">simple image classification neural network report.pdf</a></li>
@@ -20,7 +20,7 @@
 </ol>
 
 
-<h2>control systems lab prompts</h2>
+<h2>Control systems lab prompts</h2>
 <ol>
 	<li><a href="/nerd-stuff/lab 2.pdf">lab 2: intro to LabVIEW.pdf</a></li>
 	<li><a href="/nerd-stuff/lab 3.pdf">lab 3: intro to Simulink.pdf</a></li>
@@ -32,7 +32,7 @@
 </p>
 
 
-<h2>other stuff <span style="font-size: 0.5em; font-weight:normal;"> I haven't the heart to take down</span></h2>
+<h2>Other stuff <span style="font-size: 0.5em; font-weight:normal;"> I haven't the heart to take down</span></h2>
 <ol>
 	<li><a href="/nerd-stuff/how to write lab reports.pdf">how to write lab reports.pdf</a></li>
 	<li><a href="/nerd-stuff/ray tracing.pdf">ray tracing diagrams.pdf</a></li>
