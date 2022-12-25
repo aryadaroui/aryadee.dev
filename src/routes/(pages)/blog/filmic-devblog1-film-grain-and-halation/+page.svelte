@@ -5,7 +5,7 @@
 
 <title>aryadee | blog </title>
 
-<h1>Filmic devblog 1: film grain and halation</h1>
+<h1><span class="fancy-text">Filmic devblog 1</span>: film grain and halation 🌾</h1>
 <p>In this devblog, we cover testing the concepts behind Filmic's features in Python. We'll be applying functions to alter images in a pleasing way, and confirming these ideas work before we try building UI and GPU shader code around them.</p>
 <p>This post is also available as an <a href="https://github.com/aryadaroui/filmic-devblog">interactive Python (Jupyter) notebook</a>.</p>
 <h2>Quick background and goals</h2>
