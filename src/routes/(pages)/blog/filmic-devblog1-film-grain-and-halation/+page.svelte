@@ -187,7 +187,7 @@ axarr[1, 1].imshow(rescaled); axarr[1, 1].axis('off'); axarr[1, 1].set_title('re
 <p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/thresh_plot.png" /></p>
 
 <p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/filmic-devblog1-film-grain-and-halation_11_2.png" /></p>
-<p>Okay now let's actually add the <code>rescale opacity</code> on top of the original image and see the outcome.</p>
+<p>Okay now let's actually add the <code>rescale_opacity</code> on top of the original image and see the outcome.</p>
 <pre><code class="language-python">img_out = img_rgb2.copy() # make a copy so we can see before and after
 img_out[:, :, 0] = img_rgb2[:, :, 0] + opacity * (gaussian_filter(img_rgb2[:, :, 0] * r_alpha, radius))
 

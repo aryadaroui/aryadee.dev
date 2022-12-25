@@ -103,7 +103,6 @@ plot_tone_curve(tone_data_y, f_tone_curve)
 <p><img alt="png" src="/blog/filmic-devblog0-tone-curve-and-color-response/filmic-devblog0-tone-curve-and-color-response_10_0.png" /></p>
 <p>Cool. Goal #1 is accomplished and it wasn't too hard. But now we're going to have to apply curves by separate HLS channels.</p>
 <p>Let's create a new curve and call it a <em>color response</em> curve. We'll give it 13 datapoints, the first twelve are for every 30 deg of hue, and the last datapoint is to capture the last 30 deg between 330 and 360 on the hue circle before it repeats itself.</p>
-<p><img alt="color wheel" src="color_wheel.png" /></p>
 <p><img alt="png" src="/blog/filmic-devblog0-tone-curve-and-color-response/color_wheel.png" /></p>
 <p>In the first case, we'll be shifting hue with respect to hue:</p>
 {@html display(" H' = H + \\mathrm{color\\_response}(H)")}
