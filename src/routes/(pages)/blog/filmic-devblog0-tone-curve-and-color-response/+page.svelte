@@ -156,8 +156,7 @@ show_img_left_right(img_rgb1, img_out)
 <p>Color and hue are not the same; hue is a subcomponent of color. It's important to note this because our {@html math("\\mathrm{color\\_response()}")} is usually a function of hue, but it isn't always. We can also use it as a function of luminosity (or saturation), which is what we did with the grain application. But then you might ask, "why did you call it <code>f_tone_response()</code> in the code?" That's because, I think there needs to be an option of applying these effects both in the HSL <em>and</em> HSV color spaces in the app, and as I covered above, tonality is a good umbrella term for luminosity and value.</p>
 <h3>Cubic rippples</h3>
 <p>In the cubic interpolation plots, there are ripples where the interpolation overshoots after hitting our target datapoint. This may not seem like a big deal, but it's counterintuitive to the user when there's additional change (however slight in areas zeroed out. To fix this, we use <em>monotonic</em> cubic interpolation in filmic, and we'll cover that implementation in the WebGL shader article.</p>
-<h2>Thanks</h2>
-<p>If you find any typos, other errors, or want to make a comment, please contact me. And of course, feel free to reuse and remix any of this code. Please don't publicly repost these photos though! Only because they're my friends' likeness. Thanks!</p>
+
 <style>
 img {
 	max-width: 100%;

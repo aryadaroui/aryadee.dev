@@ -4,7 +4,7 @@
 <div class="img-top-right">
 	<img
 		id="pic-of-me"
-		src="me_looking_like_im_an_action_movie_hero_who_is_in_disguise.webp"
+		src="me2.webp"
 		alt="Me looking like I'm an action movie hero who is in disguise because I'm wearing a hat and sunglasses."
 	/>
 </div>

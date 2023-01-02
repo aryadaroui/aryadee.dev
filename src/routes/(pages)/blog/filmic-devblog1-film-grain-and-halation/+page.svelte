@@ -216,8 +216,7 @@ show_img_left_right(img_rgb2, img_out)
 <li>halation isn't so different from bloom; can we exploit this for efficiency if we want bloom as a feature too?</li>
 </ul>
 <p>There's a lot more in this I need to explore, and will do so in its own article. Until I've figured it out, I'm leaving it out of filmic.</p>
-<h2>Thanks</h2>
-<p>If you find any typos, other errors, or want to make a comment, please contact me. And of course, feel free to reuse and remix any of this code. Please don't publicly repost these photos though! Only because they're my friends' likeness. Thanks!</p>
+
 <style>
 img {
 	max-width: 100%;

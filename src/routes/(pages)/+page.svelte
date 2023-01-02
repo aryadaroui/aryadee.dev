@@ -12,14 +12,14 @@
 
 <!-- <Header /> -->
 
-<div class="main">
+<!-- <div class="main"> -->
 	<h1><span class="fancy-text">Hello world</span> 🌎</h1>
 
 	<p>
 		My name is Arya.
 		<br /> <br />
-		I write nerdy stuff, am developing a web and desktop app for analog film emulation, and I make some
-		meaningless art. I have some tech-related blog posts too.
+		I write nerdy stuff, am developing an app for analog film emulation, and I make some
+		meaningless art.
 	</p>
 
 	<!-- <h2>Select blog posts</h2> -->
@@ -59,7 +59,7 @@
 	</h3>
 	<h3><a href="/blog/about-filmic">About Filmic</a></h3>
 	<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
-</div>
+<!-- </div> -->
 
 <!-- {@html display('\\int_0^1 f(x) \\, \\mathrm{d}x')} -->
 

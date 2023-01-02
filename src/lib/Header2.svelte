@@ -38,7 +38,7 @@
 	}
 
 	a {
-		font-family: Hack;
+		font-family: Hack, monospace;
 		/* font-family: 'Swiss 721'; */
 		/* font-weight: 900; */
 		color: #ffffff;
