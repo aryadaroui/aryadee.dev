@@ -13,52 +13,53 @@
 <!-- <Header /> -->
 
 <!-- <div class="main"> -->
-	<h1><span class="fancy-text">Hello world</span> 🌎</h1>
+<h1><span class="fancy-text">Hello world</span> 🌎</h1>
 
-	<p>
-		My name is Arya.
-		<br /> <br />
-		I write nerdy stuff, am developing an app for analog film emulation, and I make some
-		meaningless art.
-	</p>
+<p>My name is Arya.</p>
+<p>
+	I write nerdy stuff, am developing an app for analog film emulation, and I make some meaningless
+	art. Here's more info <a href="/about-me">about me</a>.
+</p>
 
-	<!-- <h2>Select blog posts</h2> -->
+<!-- <h2>Select blog posts</h2> -->
 
-	<!-- <br> -->
-	<!-- <br> -->
-	<!-- In no particular order, I know		Look at this math {@html math('f(x) = x^2')}. Wow let's look at a block: -->
-	<!-- </p> -->
-	<!-- <ul> -->
-	<!-- <li>Python</li> -->
-	<!-- <li>C</li> -->
-	<!-- <li>Rust</li> -->
-	<!-- <li>C++</li> -->
-	<!-- <li>JavaScript</li> -->
-	<!-- <li>SQL</li> -->
-	<!-- </ul> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- In no particular order, I know		Look at this math {@html math('f(x) = x^2')}. Wow let's look at a block: -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- <li>Python</li> -->
+<!-- <li>C</li> -->
+<!-- <li>Rust</li> -->
+<!-- <li>C++</li> -->
+<!-- <li>JavaScript</li> -->
+<!-- <li>SQL</li> -->
+<!-- </ul> -->
 
-	<!-- Along with their relevant libraries -->
+<!-- Along with their relevant libraries -->
 
-	<!-- <ul> -->
-	<!-- <li>Pandas and NumPy</li> -->
-	<!-- <li>TensorFlow</li> -->
-	<!-- <li>SystemC</li> -->
-	<!-- <li>Svelte / SvelteKit</li> -->
-	<!-- <li>WebGL</li> -->
-	<!-- <li>Tauri</li> -->
-	<!-- </ul> -->
+<!-- <ul> -->
+<!-- <li>Pandas and NumPy</li> -->
+<!-- <li>TensorFlow</li> -->
+<!-- <li>SystemC</li> -->
+<!-- <li>Svelte / SvelteKit</li> -->
+<!-- <li>WebGL</li> -->
+<!-- <li>Tauri</li> -->
+<!-- </ul> -->
 
-	<h2>Posts</h2>
-	<h3>
-		<a href="/blog/filmic-devblog1-film-grain-and-halation">
-			Filmic devblog 1: film grain and halation</a>
-	</h3>
-	<h3>
-		<a href="/blog/filmic-devblog0-tone-curve-and-color-response">
-			Filmic devblog 0: tone curve and color response</a>
-	</h3>
-	<h3><a href="/blog/about-filmic">About Filmic</a></h3>
-	<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
+<h2>Posts</h2>
+<h3>
+	<a href="/blog/filmic-devblog1-film-grain-and-halation">
+		Filmic devblog 1: film grain and halation</a
+	>
+</h3>
+<h3>
+	<a href="/blog/filmic-devblog0-tone-curve-and-color-response">
+		Filmic devblog 0: tone curve and color response</a
+	>
+</h3>
+<h3><a href="/blog/about-filmic">About Filmic</a></h3>
+<h3><a href="/blog/bubble-dark">bubble-dark VS Code theme</a></h3>
 <!-- </div> -->
 
 <!-- {@html display('\\int_0^1 f(x) \\, \\mathrm{d}x')} -->
@@ -89,7 +90,7 @@ def function():
 		font-size: 1.3em;
 	} */
 
-	h3>a {
+	h3 > a {
 		font-family: 'Swiss 721';
 	}
 

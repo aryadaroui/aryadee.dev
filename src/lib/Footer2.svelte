@@ -2,7 +2,12 @@
 	<div class="item-left">
 		<p>Arya "Dee" Daroui</p>
 		<p><a href="mailto: adaroui@uci.edu">adaroui@uci.edu</a></p>
-		<p>---</p>
+		<p>
+			<a href="https://github.com/aryadaroui"><img src="/github-icon.svg" alt="github icon" /></a>
+			<a href="https://www.linkedin.com/in/aryadaroui/"><img src="/linkedin-icon.svg" alt="linkedin icon" /></a>
+			<a href="https://www.instagram.com/aryadee/"><img src="/instagram-icon.svg" alt="github icon" /></a>
+		</p>
+		<!-- <p>---</p> -->
 		<!-- <p>
 			<a href="https://github.com/aryadaroui">
 				<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
@@ -22,16 +27,15 @@
 </div>
 
 <style>
-	p a svg {
+	p a img {
 		height: 1.3em;
-		fill: #00B8EB;
+		fill: #00b8eb;
+		padding-right: 1.0em;
 	}
 
-
-	p a svg  :hover{
-		fill: #cccccc;
+	p a img :hover {
+		text-shadow: #ebf0f2 0 0 20px;
 	}
-
 
 	p {
 		color: #cccccc;

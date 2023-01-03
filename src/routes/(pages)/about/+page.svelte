@@ -18,7 +18,13 @@
 	<br /><br />
 	Appropriately, in my spare time, I make music, digital art, and take photos.
 	<br /><br />
-	I am currently looking for new work. If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
+	I am currently looking for new work. Here's some of the tech I work with:
+</p>
+
+<img id="tech-i-love" src="tech-i-love.svg" alt="Tech I love">
+
+<p>
+	If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />
 	Cheers.
 
@@ -35,6 +41,16 @@
 	h1 {
 		font-size: 1.5em;
 	} */
+
+	#tech-i-love {
+		max-width: 350px;
+	/* max-height: 100%; */
+	/* width */
+    /* height: 200px; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
 	.img-top-right {
 		text-align: center;
