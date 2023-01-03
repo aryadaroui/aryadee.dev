@@ -8,23 +8,32 @@
 		alt="Me looking like I'm an action movie hero who is in disguise because I'm wearing a hat and sunglasses."
 	/>
 </div>
+
 <p>
 	I am a computer engineer and I like to code.
-	<br /><br />
+</p>
+
+<p>
 	I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised by professor <a href="http://www.cecs.uci.edu/~doemer/">Rainer Dömer</a>, doing research under the UCI CECS Lab.
-	<br /><br />
+</p>
+
+<p>
 	I have an affinity for signal processing: audio, image, data analysis--basically anything that needs
 	an <code>ndArray</code>.
-	<br /><br />
+</p>
+
+<p>
 	Appropriately, in my spare time, I make music, digital art, and take photos.
-	<br /><br />
-	I am currently looking for new work. Here's some of the tech I work with:
+</p>
+
+<p>
+	I am currently looking for new work. Some of the tech I like to work with:
 </p>
 
 <img id="tech-i-love" src="tech-i-love.svg" alt="Tech I love">
 
 <p>
-	If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
+	And a copy of my <a href="/arya_daroui_resume.pdf">resume</a>. If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />
 	Cheers.
 
@@ -43,7 +52,7 @@
 	} */
 
 	#tech-i-love {
-		max-width: 350px;
+		max-width: 600px;
 	/* max-height: 100%; */
 	/* width */
     /* height: 200px; */

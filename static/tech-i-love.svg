@@ -1,110 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 414 612" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
-    <rect id="Artboard1" x="0" y="0" width="414" height="612" style="fill:none;"/>
+<svg width="100%" height="100%" viewBox="0 0 459 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <rect id="Artboard1" x="0" y="0" width="459" height="510" style="fill:none;"/>
     <clipPath id="_clip1">
-        <rect id="Artboard11" serif:id="Artboard1" x="0" y="0" width="414" height="612"/>
+        <rect id="Artboard11" serif:id="Artboard1" x="0" y="0" width="459" height="510"/>
     </clipPath>
     <g clip-path="url(#_clip1)">
-        <g transform="matrix(1,0,0,1,-45.261,-45.058)">
-            <g transform="matrix(1,0,0,-1,251,394)">
-                <path d="M-90,17L-71.5,17C-66.5,17 -64,14.5 -64,9.5L-64,-206.5C-64,-211.5 -61.5,-214 -56.5,-214L37,-214" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;stroke-dasharray:8,8;"/>
+        <g transform="matrix(1,0,0,1,-49,-48)">
+            <g transform="matrix(1,0,0,-1,12,344)">
+                <path d="M116,-19L134.5,-19C139.5,-19 142,-16.5 142,-11.5L142,128.5C142,133.5 144.5,136 149.5,136L160,136" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-68)">
-                <path d="M-90,-445L-71.5,-445C-66.5,-445 -64,-442.5 -64,-437.5L-64,-221.5C-64,-216.5 -61.5,-214 -56.5,-214L-46,-214" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,654)">
+                <path d="M116,291L134.5,291C139.5,291 142,288.5 142,283.5L142,143.5C142,138.5 144.5,136 149.5,136L160,136" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;stroke-dasharray:8,8;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,302)">
-                <path d="M-90,-75L-71.5,-75C-66.5,-75 -64,-77.5 -64,-82.5L-64,-206.5C-64,-211.5 -61.5,-214 -56.5,-214L-46,-214" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,112)">
+                <path d="M248,-96L266.5,-96C271.5,-96 274,-93.5 274,-88.5L274,-26.5C274,-21.5 276.5,-19 281.5,-19L292,-19" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-392)">
-                <path d="M50,-538L68.5,-538C73.5,-538 76,-535.5 76,-530.5L76,-452.5C76,-447.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,-43)">
+                <path d="M370,-174L388.5,-174C393.5,-174 396,-171.5 396,-166.5L396,-103.5C396,-98.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-207)">
-                <path d="M50,-353L68.5,-353C73.5,-353 76,-355.5 76,-360.5L76,-437.5C76,-442.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,112)">
+                <path d="M370,-19L388.5,-19C393.5,-19 396,-21.5 396,-26.5L396,-88.5C396,-93.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,228)">
-                <path d="M-90,-149L-71.5,-149C-66.5,-149 -64,-151.5 -64,-156.5L-64,-206.5C-64,-211.5 -61.5,-214 -56.5,-214L-46,-214" style="fill:none;fill-rule:nonzero;stroke:rgb(62,190,186);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,267)">
+                <path d="M248,59L266.5,59C271.5,59 274,56.5 274,51.5L274,-11.5C274,-16.5 276.5,-19 281.5,-19L292,-19" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-355)">
-                <path d="M50,-501L68.5,-501C73.5,-501 76,-498.5 76,-493.5L76,-452.5C76,-447.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,-12)">
+                <path d="M370,-143L388.5,-143C393.5,-143 396,-140.5 396,-135.5L396,-103.5C396,-98.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-244)">
-                <path d="M50,-390L68.5,-390C73.5,-390 76,-392.5 76,-397.5L76,-437.5C76,-442.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,81)">
+                <path d="M370,-50L388.5,-50C393.5,-50 396,-52.5 396,-57.5L396,-88.5C396,-93.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,15)">
-                <path d="M77,-316L95.5,-316C100.5,-316 103,-313.5 103,-308.5L103,-267.5C103,-262.5 105.5,-260 110.5,-260L121,-260" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,298)">
+                <path d="M388,12L406.5,12C411.5,12 414,14.5 414,19.5L414,51.5C414,56.5 416.5,59 421.5,59L432,59" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,126)">
-                <path d="M77,-205L95.5,-205C100.5,-205 103,-207.5 103,-212.5L103,-252.5C103,-257.5 105.5,-260 110.5,-260L121,-260" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,391)">
+                <path d="M388,105L406.5,105C411.5,105 414,102.5 414,97.5L414,66.5C414,61.5 416.5,59 421.5,59L432,59" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,117)">
-                <path d="M-90,-260L-71.5,-260C-66.5,-260 -64,-257.5 -64,-252.5L-64,-221.5C-64,-216.5 -61.5,-214 -56.5,-214L-46,-214" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,546)">
+                <path d="M116,183L134.5,183C139.5,183 142,180.5 142,175.5L142,143.5C142,138.5 144.5,136 149.5,136L160,136" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,588)">
-                <path d="M37,-20L59.5,-20C64.5,-20 67,-17.5 67,-12.5L67,9.5C67,14.5 69.5,17 74.5,17L89,17" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,562)">
+                <path d="M248,152L266.5,152C271.5,152 274,154.5 274,159.5L274,175.5C274,180.5 276.5,183 281.5,183L292,183" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,662)">
-                <path d="M37,54L59.5,54C64.5,54 67,51.5 67,46.5L67,24.5C67,19.5 69.5,17 74.5,17L89,17" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,624)">
+                <path d="M248,214L266.5,214C271.5,214 274,211.5 274,206.5L274,190.5C274,185.5 276.5,183 281.5,183L292,183" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,625)">
-                <path d="M37,17L89,17" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,778)">
+                <path d="M248,260L266.5,260C271.5,260 274,262.5 274,267.5L274,283.5C274,288.5 276.5,291 281.5,291L292,291" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-318)">
-                <path d="M50,-464L68.5,-464C73.5,-464 76,-461.5 76,-456.5L76,-452.5C76,-447.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,840)">
+                <path d="M248,322L266.5,322C271.5,322 274,319.5 274,314.5L274,298.5C274,293.5 276.5,291 281.5,291L292,291" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,-281)">
-                <path d="M50,-427L68.5,-427C73.5,-427 76,-429.5 76,-434.5L76,-437.5C76,-442.5 78.5,-445 83.5,-445L94,-445" style="fill:none;fill-rule:nonzero;stroke:rgb(222,123,179);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,19)">
+                <path d="M370,-112L388.5,-112C393.5,-112 396,-109.5 396,-104.5L396,-103.5C396,-98.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,52)">
-                <path d="M77,-279L95.5,-279C100.5,-279 103,-276.5 103,-271.5L103,-267.5C103,-262.5 105.5,-260 110.5,-260L121,-260" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,50)">
+                <path d="M370,-81L388.5,-81C393.5,-81 396,-83.5 396,-88.5C396,-93.5 398.5,-96 403.5,-96L414,-96" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,89)">
-                <path d="M77,-242L95.5,-242C100.5,-242 103,-244.5 103,-249.5L103,-252.5C103,-257.5 105.5,-260 110.5,-260L121,-260" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,329)">
+                <path d="M388,43L406.5,43C411.5,43 414,45.5 414,50.5L414,51.5C414,56.5 416.5,59 421.5,59L432,59" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,274)">
-                <path d="M32,-168L50.5,-168C55.5,-168 58,-165.5 58,-160.5L58,-156.5C58,-151.5 60.5,-149 65.5,-149L76,-149" style="fill:none;fill-rule:nonzero;stroke:rgb(62,190,186);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,360)">
+                <path d="M388,74L406.5,74C411.5,74 414,71.5 414,66.5C414,61.5 416.5,59 421.5,59L432,59" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,311)">
-                <path d="M32,-131L50.5,-131C55.5,-131 58,-133.5 58,-138.5L58,-141.5C58,-146.5 60.5,-149 65.5,-149L76,-149" style="fill:none;fill-rule:nonzero;stroke:rgb(62,190,186);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,515)">
+                <path d="M358,136L376.5,136C381.5,136 384,138.5 384,143.5L384,144.5C384,149.5 386.5,152 391.5,152L402,152" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,422)">
-                <path d="M73,-94L91.5,-94C96.5,-94 99,-91.5 99,-86.5L99,-82.5C99,-77.5 101.5,-75 106.5,-75L117,-75" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,546)">
+                <path d="M358,167L376.5,167C381.5,167 384,164.5 384,159.5C384,154.5 386.5,152 391.5,152L402,152" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
             </g>
-            <g transform="matrix(1,0,0,-1,251,459)">
-                <path d="M73,-57L91.5,-57C96.5,-57 99,-59.5 99,-64.5L99,-67.5C99,-72.5 101.5,-75 106.5,-75L117,-75" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,-1,12,639)">
+                <path d="M385,198L403.5,198C408.5,198 411,200.5 411,205.5L411,206.5C411,211.5 413.5,214 418.5,214L429,214" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
             </g>
-            <text x="47.261px" y="384px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:21px;fill:white;">T<tspan x="55.64px 66.749px " y="384px 384px ">ec</tspan>h I &lt;3</text>
-            <text x="220px" y="152px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Python</text>
+            <g transform="matrix(1,0,0,-1,12,670)">
+                <path d="M385,229L403.5,229C408.5,229 411,226.5 411,221.5C411,216.5 413.5,214 418.5,214L429,214" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(1,0,0,-1,12,809)">
+                <path d="M248,291L292,291" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
+            </g>
+            <text x="51px" y="368px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="55.788px 62.136px " y="368px 368px ">ec</tspan>h I &lt;3</text>
             <g>
-                <text x="360px" y="60px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Rich</text>
-                <text x="360px" y="97px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Plotly</text>
-                <text x="360px" y="134px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">SciKit</text>
-                <text x="360px" y="171px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">NumPy</text>
-                <text x="360px" y="208px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">P<tspan x="370.386px 380.034px " y="208px 208px ">an</tspan>das</text>
-                <text x="360px" y="245px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">T<tspan x="367.182px 376.704px " y="245px 245px ">en</tspan>sorFlow</text>
+                <text x="187.152px" y="205px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Scripting</text>
+                <text x="193.662px" y="220px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">&amp; web</text>
             </g>
-            <text x="220px" y="337px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">T<tspan x="227.254px 235.624px " y="337px 337px ">yp</tspan>eScript</text>
+            <text x="319px" y="135px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Python</text>
             <g>
-                <text x="387px" y="282px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">D3.js</text>
-                <text x="387px" y="319px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Svelte</text>
-                <text x="387px" y="356px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">W<tspan x="402.12px 411.642px " y="356px 356px ">eb</tspan>GL</text>
-                <text x="387px" y="393px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">SvelteKit</text>
+                <text x="441px" y="58px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rich</text>
+                <text x="441px" y="89px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Plotly</text>
+                <text x="441px" y="120px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SciKit</text>
+                <text x="441px" y="151px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">NumPy</text>
+                <text x="441px" y="182px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">P<tspan x="447.924px 454.356px " y="182px 182px ">an</tspan>das</text>
+                <text x="441px" y="213px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="445.788px 452.136px " y="213px 213px ">en</tspan>sorFlow</text>
             </g>
-            <text x="220px" y="448px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Rust</text>
+            <text x="319px" y="290px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="323.836px 329.416px " y="290px 290px ">yp</tspan>eScript</text>
             <g>
-                <text x="342px" y="430px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">T<tspan x="349.182px 358.83px " y="430px 430px ">au</tspan>ri</text>
-                <text x="342px" y="467px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Rayon</text>
+                <text x="459px" y="244px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">D3.js</text>
+                <text x="459px" y="275px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Svelte</text>
+                <text x="459px" y="306px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">W<tspan x="469.08px 475.428px " y="306px 306px ">eb</tspan>GL</text>
+                <text x="459px" y="337px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SvelteKit</text>
             </g>
-            <text x="220px" y="522px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">C &amp; C++</text>
+            <text x="187.896px" y="414px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Systems</text>
+            <text x="319px" y="383px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rust</text>
             <g>
-                <text x="383px" y="504px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Boost</text>
-                <text x="383px" y="541px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">SystemC</text>
+                <text x="429px" y="368px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="433.788px 440.22px " y="368px 368px ">au</tspan>ri</text>
+                <text x="429px" y="399px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rayon</text>
             </g>
-            <text x="220px" y="602px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:18px;fill:white;">General</text>
+            <text x="319px" y="445px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">C &amp; C++</text>
             <g>
-                <text x="355px" y="578px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">Git</text>
-                <text x="355px" y="615px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">SQL</text>
-                <text x="355px" y="652px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:18px;fill:white;">UNIX</text>
+                <text x="456px" y="430px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Boost</text>
+                <text x="456px" y="461px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SystemC</text>
+            </g>
+            <text x="189.894px" y="523px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:12px;fill:rgb(221,221,221);">General</text>
+            <g>
+                <text x="319px" y="492px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Git</text>
+                <text x="319px" y="523px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SQL</text>
+                <text x="319px" y="554px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">UNIX</text>
             </g>
         </g>
     </g>
