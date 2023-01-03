@@ -3,7 +3,9 @@
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
 		<a class="nav-item" href="/art/">art</a>
-		<a class="nav-item" href="/filmic/" style="margin-right: 0px;">filmic</a>
+		<a class="nav-item" href="/filmic/">filmic</a>
+		<a class="nav-item" href="/about" style="margin-right: 0px;">about me</a>
+
 		<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
 	</div>
 </div>
