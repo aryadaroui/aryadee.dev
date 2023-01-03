@@ -17,7 +17,7 @@
 
 <p>My name is Arya.</p>
 <p>
-	I write nerdy stuff, am developing an app for analog film emulation, and I make some meaningless
+	I write nerdy stuff, am developing an <a href="/filmic">app for analog film emulation</a>, and I make some meaningless
 	art. Here's more info <a href="/about-me">about me</a>.
 </p>
 
