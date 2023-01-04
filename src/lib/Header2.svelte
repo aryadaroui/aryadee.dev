@@ -2,7 +2,7 @@
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
-		<a class="nav-item" href="/art/">art</a>
+		<a class="nav-item" href="/signals/">signals</a>
 		<a class="nav-item" href="/about/">about me</a>
 		<a class="nav-item" href="/filmic" style="margin-right: 0px;">filmic</a>
 
