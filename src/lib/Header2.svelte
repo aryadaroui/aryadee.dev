@@ -2,7 +2,7 @@
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
-		<a class="nav-item" href="/signals/">signals</a>
+		<a class="nav-item" href="/art-&-audio/">art & audio</a>
 		<a class="nav-item" href="/about/">about me</a>
 		<a class="nav-item" href="/filmic" style="margin-right: 0px;">filmic</a>
 
@@ -82,10 +82,12 @@
 
 		.nav-item {
 			margin: 8px;
-			/* margin-bottom: 8px; */
+			/* margin: 1px 0px 1px 0px; */
 		}
 
 		.nav-wrapper {
+			font-size: .9em;
+			padding-top: 15px;
 			justify-content: space-evenly;
 		}
 

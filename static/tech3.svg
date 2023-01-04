@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 293 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-1.30978e-14,-431.149)">
+        <g id="Artboard3" transform="matrix(0.921675,0,0,0.815691,1.30978e-14,40.2214)">
+            <rect x="0" y="479.26" width="317.895" height="93.53" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="479.26" width="317.895" height="93.53"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.08498,0,0,1.22595,-51.9641,-176.102)">
+                    <g transform="matrix(1,0,0,-1,139.998,896.5)">
+                        <path d="M-32,323L-13.5,323C-8.5,323 -6,320.5 -6,315.5L-6,299.5C-6,294.5 -3.5,292 1.5,292L12,292" style="fill:none;fill-rule:nonzero;stroke:rgb(31,98,163);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,139.998,865.5)">
+                        <path d="M-32,292L12,292" style="fill:none;fill-rule:nonzero;stroke:rgb(73,135,203);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,139.998,834.5)">
+                        <path d="M-32,261L-13.5,261C-8.5,261 -6,263.5 -6,268.5L-6,284.5C-6,289.5 -3.5,292 1.5,292L12,292" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
+                    </g>
+                    <g>
+                        <text x="47.894px" y="570px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:12px;fill:rgb(221,221,221);">General</text>
+                        <text x="55.766px" y="585px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:12px;fill:rgb(221,221,221);">tools</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-10.002,0.5)">
+                        <text x="177px" y="546px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Git</text>
+                        <text x="177px" y="577px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SQL</text>
+                        <text x="177px" y="608px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">UNIX</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

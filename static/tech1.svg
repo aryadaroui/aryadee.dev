@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 293 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g id="Artboard1" transform="matrix(0.709434,0,0,0.893085,4.1053e-14,0)">
+        <rect x="0" y="0" width="413" height="330.832" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="0" y="0" width="413" height="330.832"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1.40958,0,0,1.11971,-59.4164,-40.7426)">
+                <g transform="matrix(1,0,0,-1,126,-115)">
+                    <path d="M87,-237L105.5,-237C110.5,-237 113,-234.5 113,-229.5L113,-166.5C113,-161.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,40)">
+                    <path d="M87,-82L105.5,-82C110.5,-82 113,-84.5 113,-89.5L113,-151.5C113,-156.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,138,195)">
+                    <path d="M-35,-4L-16.5,-4C-11.5,-4 -9,-6.5 -9,-11.5L-9,-74.5C-9,-79.5 -6.5,-82 -1.5,-82L9,-82" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,-84)">
+                    <path d="M87,-206L105.5,-206C110.5,-206 113,-203.5 113,-198.5L113,-166.5C113,-161.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,9)">
+                    <path d="M87,-113L105.5,-113C110.5,-113 113,-115.5 113,-120.5L113,-151.5C113,-156.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,138,40)">
+                    <path d="M-35,-159L-16.5,-159C-11.5,-159 -9,-156.5 -9,-151.5L-9,-89.5C-9,-84.5 -6.5,-82 -1.5,-82L9,-82" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,226)">
+                    <path d="M105,-51L123.5,-51C128.5,-51 131,-48.5 131,-43.5L131,-11.5C131,-6.5 133.5,-4 138.5,-4L149,-4" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,319)">
+                    <path d="M105,42L123.5,42C128.5,42 131,39.5 131,34.5L131,3.5C131,-1.5 133.5,-4 138.5,-4L149,-4" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,-53)">
+                    <path d="M87,-175L105.5,-175C110.5,-175 113,-172.5 113,-167.5L113,-166.5C113,-161.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,-22)">
+                    <path d="M87,-144L105.5,-144C110.5,-144 113,-146.5 113,-151.5C113,-156.5 115.5,-159 120.5,-159L131,-159" style="fill:none;fill-rule:nonzero;stroke:rgb(255,154,210);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,257)">
+                    <path d="M105,-20L123.5,-20C128.5,-20 131,-17.5 131,-12.5L131,-11.5C131,-6.5 133.5,-4 138.5,-4L149,-4" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,-1,126,288)">
+                    <path d="M105,11L123.5,11C128.5,11 131,8.5 131,3.5C131,-1.5 133.5,-4 138.5,-4L149,-4" style="fill:none;fill-rule:nonzero;stroke:rgb(168,74,129);stroke-width:2px;"/>
+                </g>
+                <g>
+                    <text x="42.152px" y="196px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Scripting</text>
+                    <text x="48.662px" y="211px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">&amp; web</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-12,0)">
+                    <text x="174px" y="126px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Python</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-24,0)">
+                    <text x="296px" y="49px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rich</text>
+                    <text x="296px" y="80px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Plotly</text>
+                    <text x="296px" y="111px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SciKit</text>
+                    <text x="296px" y="142px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">NumPy</text>
+                    <text x="296px" y="173px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">P<tspan x="302.924px 309.356px " y="173px 173px ">an</tspan>das</text>
+                    <text x="296px" y="204px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="300.788px 307.136px " y="204px 204px ">en</tspan>sorFlow</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-12,0)">
+                    <text x="174px" y="281px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="178.836px 184.416px " y="281px 281px ">yp</tspan>eScript</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-24,0)">
+                    <text x="314px" y="235px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">D3.js</text>
+                    <text x="314px" y="266px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Svelte</text>
+                    <text x="314px" y="297px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">W<tspan x="324.08px 330.428px " y="297px 297px ">eb</tspan>GL</text>
+                    <text x="314px" y="328px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SvelteKit</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

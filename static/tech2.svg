@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 293 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,0,-313.843)">
+        <g id="Artboard2" transform="matrix(0.921675,0,0,0.883184,-1.30978e-14,12.0877)">
+            <rect x="0" y="341.667" width="317.895" height="126.381" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="341.667" width="317.895" height="126.381"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.08498,0,0,1.13227,-47.6263,-88.0505)">
+                    <g transform="matrix(1,0,0,-1,138,618)">
+                        <path d="M-34,184L-15.5,184C-10.5,184 -8,181.5 -8,176.5L-8,160.5C-8,155.5 -5.5,153 -0.5,153L10,153" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,138,556)">
+                        <path d="M-34,122L-15.5,122C-10.5,122 -8,124.5 -8,129.5L-8,145.5C-8,150.5 -5.5,153 -0.5,153L10,153" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,126,509)">
+                        <path d="M76,106L94.5,106C99.5,106 102,108.5 102,113.5L102,114.5C102,119.5 104.5,122 109.5,122L120,122" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,126,540)">
+                        <path d="M76,137L94.5,137C99.5,137 102,134.5 102,129.5C102,124.5 104.5,122 109.5,122L120,122" style="fill:none;fill-rule:nonzero;stroke:rgb(103,225,221);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,126,633)">
+                        <path d="M103,168L121.5,168C126.5,168 129,170.5 129,175.5L129,176.5C129,181.5 131.5,184 136.5,184L147,184" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,126,664)">
+                        <path d="M103,199L121.5,199C126.5,199 129,196.5 129,191.5C129,186.5 131.5,184 136.5,184L147,184" style="fill:none;fill-rule:nonzero;stroke:rgb(0,134,132);stroke-width:2px;"/>
+                    </g>
+                    <g>
+                        <text x="43.896px" y="431px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Systems</text>
+                        <text x="51.894px" y="446px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">langs</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-12,0)">
+                        <text x="175px" y="407px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rust</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-24,0)">
+                        <text x="285px" y="392px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">T<tspan x="289.788px 296.22px " y="392px 392px ">au</tspan>ri</text>
+                        <text x="285px" y="423px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Rayon</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-12,0)">
+                        <text x="175px" y="469px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">C &amp; C++</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-24,0)">
+                        <text x="312px" y="454px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Boost</text>
+                        <text x="312px" y="485px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">SystemC</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,7 @@
+<script>
+	import { math, display } from 'mathlifier';
+</script>
+
 <title>aryadee | about me</title>
 
 <h1><span class="fancy-text">About me</span> 🦧</h1>
@@ -9,31 +13,34 @@
 	/>
 </div>
 
+<p>I am a computer engineer and I like to code.</p>
+
 <p>
-	I am a computer engineer and I like to code.
+	I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised by
+	professor <a href="http://www.cecs.uci.edu/~doemer/">Rainer Dömer</a>, doing research under the
+	UCI CECS Lab.
 </p>
 
 <p>
-	I completed my master's at UC Irvine with my thesis on modeling multi-core SoCs. I was advised by professor <a href="http://www.cecs.uci.edu/~doemer/">Rainer Dömer</a>, doing research under the UCI CECS Lab.
+	I have an affinity for signal processing: audio, image, data analysis--basically anything that
+	needs an {@html math("n")}-dimensional array.
 </p>
 
-<p>
-	I have an affinity for signal processing: audio, image, data analysis--basically anything that needs
-	an <code>ndArray</code>.
-</p>
+<p>Appropriately, in my spare time, I make music, digital art, and take photos.</p>
+
+<p>I am currently looking for new work. Some of the tech I &lt;3:</p>
+
+<!-- <img id="tech-i-love" src="tech-i-love.svg" alt="Tech I love"> -->
+
+<div id="tech-container">
+	<img class="tech" src="tech1.svg" alt="Python and TypeScript" />
+	<img class="tech" src="tech2.svg" alt="Rust and C++" />
+	<img class="tech" src="tech3.svg" alt="Git SQL UNIX" />
+</div>
 
 <p>
-	Appropriately, in my spare time, I make music, digital art, and take photos.
-</p>
-
-<p>
-	I am currently looking for new work. Some of the tech I like to work with:
-</p>
-
-<img id="tech-i-love" src="tech-i-love.svg" alt="Tech I love">
-
-<p>
-	And a copy of my <a href="/arya_daroui_resume.pdf">resume</a>. If you'd like to get in touch, please <a href="mailto: adaroui@uci.edu">email me</a>.
+	And a copy of my <a href="/arya_daroui_resume.pdf">resume</a>. If you'd like to get in touch,
+	please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />
 	Cheers.
 
@@ -51,14 +58,28 @@
 		font-size: 1.5em;
 	} */
 
-	#tech-i-love {
-		max-width: 600px;
+	/* #tech-i-love {
+		/* max-width: 600px; */
 	/* max-height: 100%; */
 	/* width */
-    /* height: 200px; */
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	/* height: 200px; */
+	/* display: block; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+
+	#tech-container {
+		/* text-align: center; */
+	}
+
+	.tech {
+		display: block;
+		/* overflow: hidden; */
+		/* text-align: center; */
+		margin: auto;
+		max-width: 370px;
+
+		/* max-width: 400px; */
+		/* max-height: 400px; */
 	}
 
 	.img-top-right {
@@ -97,6 +118,5 @@
 			margin-left: 0;
 			/* margin-right: 0; */
 		}
-
 	}
 </style>

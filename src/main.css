@@ -28,6 +28,15 @@ code {
 	font-family: Hack, monospace;
 }
 
+li>code {
+	color: #fe72cb;
+	font-size: 0.9em;
+	background-color: #222b34d7;
+	border-radius: .3em;
+	padding: 4px 4px 4px;
+	white-space: nowrap;
+}
+
 p>code {
 	color: #fe72cb;
 	font-size: 0.9em;
