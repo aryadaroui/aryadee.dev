@@ -100,7 +100,7 @@ h3 {
 p {
 	/* font-family: Hack; */
 	/* font-size: 0.95em; */
-	font-family: 'Swiss 721';
+	font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.1em;
 	color: #DDDDDD;
 	line-height: 1.5em;
@@ -109,7 +109,8 @@ p {
 
 a {
 	/* font-family: Hack; */
-	font-family: 'Swiss 721';
+		font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, sans-serif;
+;
 	color: #00b8eb;
 	text-decoration: none;
 }
