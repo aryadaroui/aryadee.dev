@@ -160,7 +160,8 @@ show_img_left_right(img_rgb1, img_out)
 <style>
 img {
 	max-width: 100%;
-    height: auto;
+	max-height: 500px;
+    /* height: auto; */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

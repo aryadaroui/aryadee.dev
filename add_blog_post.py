@@ -48,7 +48,7 @@ end_html = '''
 <style>
 img {
 	max-width: 100%;
-    height: auto;
+	max-height: 500px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
