@@ -1,6 +1,7 @@
 <title>aryadee | privacy and copyright</title>
 
-<p><code>02 Jan 2023</code></p>
+<p><code>02 Jan 2023</code></p> 
+<p>These terms are subject to change.</p>
 
 <h2>Privacy</h2>
 

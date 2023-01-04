@@ -36,7 +36,6 @@
 <ol>
 	<li><a href="/nerd-stuff/how to write lab reports.pdf">How to write lab reports.pdf</a></li>
 	<li><a href="/nerd-stuff/ray tracing.pdf">Ray tracing diagrams.pdf</a></li>
-	<li><a href="/nerd-stuff/measurement limitations.pdf">Measurement limitations of circuits slideshow.pdf</a></li>
 	<li><a href="/nerd-stuff/fourier series example.pdf">Fourier series example.pdf</a></li>
 	<li><a href="https://aryadaroui.github.io/works/">My old website</a></li>
 </ol>
