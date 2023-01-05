@@ -19,8 +19,8 @@
                         <path d="M-32,261L-13.5,261C-8.5,261 -6,263.5 -6,268.5L-6,284.5C-6,289.5 -3.5,292 1.5,292L12,292" style="fill:none;fill-rule:nonzero;stroke:rgb(130,183,255);stroke-width:2px;"/>
                     </g>
                     <g>
-                        <text x="47.894px" y="570px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:12px;fill:rgb(221,221,221);">General</text>
-                        <text x="55.766px" y="585px" style="font-family:'Swiss721LightItalic', 'Swiss 721', sans-serif;font-weight:300;font-style:italic;font-size:12px;fill:rgb(221,221,221);">tools</text>
+                        <text x="47.894px" y="570px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">General</text>
+                        <text x="55.766px" y="585px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">tools</text>
                     </g>
                     <g transform="matrix(1,0,0,1,-10.002,0.5)">
                         <text x="177px" y="546px" style="font-family:'Swiss721Light', 'Swiss 721', sans-serif;font-weight:300;font-size:12px;fill:rgb(221,221,221);">Git</text>

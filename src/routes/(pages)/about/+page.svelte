@@ -28,9 +28,7 @@
 
 <p>Appropriately, in my spare time, I make music, digital art, and take photos.</p>
 
-<p>I am currently looking for new work. Some of the tech I &lt;3:</p>
-
-<!-- <img id="tech-i-love" src="tech-i-love.svg" alt="Tech I love"> -->
+<p>I am currently looking for new work. Here's some of the tech I &lt;3:</p>
 
 <div id="tech-container">
 	<img class="tech" src="tech1.svg" alt="Python and TypeScript" />
@@ -39,7 +37,7 @@
 </div>
 
 <p>
-	And a copy of my <a href="/arya_daroui_resume.pdf">resume</a>. If you'd like to get in touch,
+	And a copy of my <a href="/arya daroui resume.pdf">resume</a>. If you'd like to get in touch,
 	please <a href="mailto: adaroui@uci.edu">email me</a>.
 	<br /><br />
 	Cheers.
