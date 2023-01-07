@@ -91,7 +91,7 @@ def function():
 	} */
 
 	h3 > a {
-		font-family: 'Swiss 721';
+		font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
 
 	/* .main {
