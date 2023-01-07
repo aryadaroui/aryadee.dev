@@ -58,6 +58,6 @@
 		max-width: 800px;
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 50px;
+		/* margin-bottom: 0px; */
 	}
 </style>

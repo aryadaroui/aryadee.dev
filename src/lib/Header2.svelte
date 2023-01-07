@@ -1,7 +1,7 @@
 <div class="header-content">
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
 	<div class="nav-wrapper">
-		<a class="nav-item" href="/nerd-stuff/">nerd stuff</a>
+		<a class="nav-item" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
 		<a class="nav-item" href="/art-&-audio/">art & audio</a>
 		<a class="nav-item" href="/about/">about me</a>
 		<a class="nav-item" href="/filmic" style="margin-right: 0px;">filmic</a>
