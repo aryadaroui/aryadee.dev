@@ -16,7 +16,7 @@
 </p>
 
 <p>
-	Fimic does not share your data without your explicit, active consent, e.g. you uploading a custom
+	Filmic does not share your data without your explicit, active consent, e.g. you uploading a custom
 	preset to share publicly.
 </p>
 

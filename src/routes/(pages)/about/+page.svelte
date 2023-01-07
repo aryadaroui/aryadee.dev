@@ -65,9 +65,6 @@
 	/* margin-left: auto; */
 	/* margin-right: auto; */
 
-	#tech-container {
-		/* text-align: center; */
-	}
 
 	.tech {
 		display: block;
@@ -90,8 +87,8 @@
 
 	#pic-of-me {
 		float: right;
-		width: 300px;
-		height: 300px;
+		width: 270px;
+		height: 270px;
 
 		/* position: absolute;
 		top: 70px;
