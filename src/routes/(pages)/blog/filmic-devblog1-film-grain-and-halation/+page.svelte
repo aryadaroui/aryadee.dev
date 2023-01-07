@@ -123,8 +123,6 @@ show_img_gray(noise)
 noise min: -0.35
 noise mean: -0.0
 </code></pre>
-<p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/tone_response_plot.png" /></p>
-
 <p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/filmic-devblog1-film-grain-and-halation_7_1.png" /></p>
 <p>Now, we do what we did earlier and create another color response curve, but this time it applies the granular noise with respect to the image's tonality. Typically, we see more noise in darker regions, so lets set our response curve to match that.</p>
 <pre><code class="language-python">img_hls = rgb_to_hls(img_rgb1) # reset our img_hls
@@ -143,6 +141,7 @@ show_img_rgb(img_out)
 # # the grain is hard to see in a low resolution notebook preview. You may want to save the file with the line below.
 # write_img(img_out, 'test_pic1_grain.jpg')
 </code></pre>
+<p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/tone_response_plot.png" /></p>
 <p><img alt="png" src="/blog/filmic-devblog1-film-grain-and-halation/filmic-devblog1-film-grain-and-halation_9_1.png" /></p>
 <p>Looking good! The next feature on our list is halation. </p>
 <p>Put simply, halation is red fringing caused by backscattering in the film emulsion. We're going to emulate it by thresholding the red channels' brightest pixels, diffusing it with a gaussian blur, and then adding it on top of the original image.</p>
