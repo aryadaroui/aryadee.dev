@@ -1,26 +1,18 @@
 #version 300 es
 
-// fragment shaders don't have a default precision so we need
-// to pick one. highp is a good default. It means "high precision"
 precision highp float;
 
-// our texture
 uniform sampler2D photo;
-// uniform sampler2D grain;
 
-// the texCoords passed in from the vertex shader.
 in vec2 v_texCoord;
 
-// we need to declare an output for the fragment shader
 out vec4 response;
 
-// for tone curve
 uniform float xs_tone_curve[7];
 uniform float ys_tone_curve[7];
 uniform float c1s_tone_curve[7];
 uniform float c2s_tone_curve[6];
 uniform float c3s_tone_curve[6];
-// 
 
 uniform float xs_tone_response[7];
 uniform float ys_tone_response[7];
@@ -60,7 +52,6 @@ uniform float grain_size;
 uniform float offset;
 uniform float intensity;
 
-// uniform mat3 u_matrix;
 
 vec4 texel;
 
@@ -282,20 +273,10 @@ void main() {
 	float grain_value;
 	float seed = 1.0;
 	float adjust_grain_size = grain_size * camera_zoom;
-
 	vec3 toned_rgb;
-
-	// grain_size = grain_size;
-	// float  offset = 0.0;
-	// float  intensity = 0.5;
-
-	// vec2 p = (gl_FragCoord.xy + vec2(camera_x * camera_zoom, -camera_y * -camera_zoom));
-	// vec2 p = (gl_FragCoord.xy + vec2(camera_x * camera_zoom, -camera_y * camera_zoom));
 	vec2 p = vec2(gl_FragCoord.x + (camera_x * camera_zoom), gl_FragCoord.y - (camera_y * camera_zoom));
 
 	texel = texture(photo, v_texCoord);
-
-
 	toned_rgb = vec3(
 		interp_tone_curve(texel.r),
 		interp_tone_curve(texel.g),
@@ -314,59 +295,7 @@ void main() {
 		clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
 	));
 
-
-	// // // HSL
-	// hsv_tex = rgb2hsl3(toned_rgb);
-	// grain_value = simplex3d(vec3(p / adjust_grain_size, seed * grain_size * camera_zoom * 77.7));
-	// grain_value = offset + intensity * grain_value;
-
-	// rgb_tex = hsl2rgb3(vec3(
-	// 	hsv_tex.x + interp_hue_shift(hsv_tex.x),
-	// 	clamp(hsv_tex.y + interp_saturation_shift(hsv_tex.x), 0.0, 1.0), 
-	// 	clamp(hsv_tex.z + interp_value_shift(hsv_tex.x) - (interp_tone_response(hsv_tex.z) * grain_value), 0.0, 1.0)
-	// ));
-
-
-
-
-
-
-	// hsl_tex = rgbToHsluv(texel.rgb);
-
-	// rgb_tex = hsluvToRgb(vec3(
-	// 	hsl_tex.x,
-	// 	hsl_tex.y,
-	// 	monotone_cubic_interp(hsl_tex.z)
-	// ));
-
-	// hsv_tex = rgb2hsv(texel.rgb);
-	// value = simplex3d(vec3(p / grain_size, seed * camera_zoom * 777.7));
-	// value = offset + intensity * value;
-
-	// rgb_tex = hsv2rgb(vec3(hsv_tex.x, hsv_tex.y, hsv_tex.z - monotone_cubic_interp(hsv_tex.z) * value));
-
-	/*
-		basically just need to do adjustments based upon hue. i.e.
-
-
-		hsl_tex.h = monotonic_cubic_interp_12(h, 0) // 0, 1, 2 indicates HSL
-		hsl_tex.s = monotonic_cubic_interp_12(h, 1)
-		hsl_tex.l = monotonic_cubic_interp_12(h. 2)	
-
-
-		to the do the shift, i think it could be something like
-		hsl_tex.h = hsl_tex.h + (monotonic_cubic_interp_12(h, 0) * (1/12))
-
-		 these all should be shifts?
-
-
-
-	*/
-
-	// response = vec4(interp_tone_curve(rgb_tex.r), interp_tone_curve(rgb_tex.g), interp_tone_curve(rgb_tex.b), 1.0);
-
 	response = vec4(rgb_tex.r, rgb_tex.g, rgb_tex.b, texel.a + interp_alpha_shift(hsv_tex.x));
-
 }
 
 float interp_tone_curve(float x) {
@@ -376,7 +305,6 @@ float interp_tone_curve(float x) {
 	i = int(floor(x * 6.0));
 
 	diff = x - xs_tone_curve[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_tone_curve[i] + c1s_tone_curve[i] * diff + c2s_tone_curve[i] * diffSq + c3s_tone_curve[i] * diff * diffSq;
@@ -389,7 +317,6 @@ float interp_tone_response(float x) {
 	i = int(floor(x * 6.0));
 
 	diff = x - xs_tone_response[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_tone_response[i] + c1s_tone_response[i] * diff + c2s_tone_response[i] * diffSq + c3s_tone_response[i] * diff * diffSq;
@@ -402,7 +329,6 @@ float interp_hue_shift(float x) {
 	i = int(floor(x * 12.0));
 
 	diff = x - xs_hue_shift[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_hue_shift[i] + c1s_hue_shift[i] * diff + c2s_hue_shift[i] * diffSq + c3s_hue_shift[i] * diff * diffSq;
@@ -415,7 +341,6 @@ float interp_saturation_shift(float x) {
 	i = int(floor(x * 12.0));
 
 	diff = x - xs_saturation_shift[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_saturation_shift[i] + c1s_saturation_shift[i] * diff + c2s_saturation_shift[i] * diffSq + c3s_saturation_shift[i] * diff * diffSq;
@@ -428,7 +353,6 @@ float interp_value_shift(float x) {
 	i = int(floor(x * 12.0));
 
 	diff = x - xs_value_shift[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_value_shift[i] + c1s_value_shift[i] * diff + c2s_value_shift[i] * diffSq + c3s_value_shift[i] * diff * diffSq;
@@ -441,7 +365,6 @@ float interp_alpha_shift(float x) {
 	i = int(floor(x * 12.0));
 
 	diff = x - xs_alpha_shift[i];
-	// diff = x - xs[i];
 	diffSq = diff * diff;
 
 	return ys_alpha_shift[i] + c1s_alpha_shift[i] * diff + c2s_alpha_shift[i] * diffSq + c3s_alpha_shift[i] * diff * diffSq;
