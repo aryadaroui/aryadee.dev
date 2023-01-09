@@ -1,4 +1,4 @@
-# [aryadee.dev](www.aryadee.dev) is my website / blog
+# [www.aryadee.dev](https://www.aryadee.dev) is my website / blog
 
 code blocks highlighted with highlight.js
 
