@@ -30,7 +30,9 @@
 
 <p>If there's one insight I'd like you to take away from here, it's this <a href="/quote">quote</a>.</p>
 
-<hr>
+<!-- <hr> -->
+
+<h2>Work</h2>
 
 <p>I am currently looking for new work. <a href="/arya daroui resume.pdf">Here is a copy of my resume</a>, and this is some of the tech I &lt;3:</p>
 

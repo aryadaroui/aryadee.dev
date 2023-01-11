@@ -92,6 +92,7 @@ def function():
 
 	h3 > a {
 		font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: 300;
 	}
 
 	/* .main {

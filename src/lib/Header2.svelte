@@ -1,6 +1,6 @@
 <nav class="header-content">
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
-	<a class="secret-link" href="/quote" style="color: #090909;">quote</a>
+	<div class="secret-link"><a class="secret-nav-item" href="/quote">quote</a></div>
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
 		<a class="nav-item" href="/art-&-audio/">art & audio</a>
@@ -25,7 +25,6 @@
 	}
 
 	.secret-link {
-		color: red;
 		margin: 0px;
 	}
 
@@ -68,6 +67,40 @@
 		text-shadow: #ebf0f2 0 0 20px;
 	}
 
+	a.secret-nav-item {
+		--bg-size: 400%;
+		--color-white: #AAAAAA;
+		--color-black: #000000;
+		background: linear-gradient(
+				-45deg,
+				var(--color-black),
+				var(--color-black),
+				var(--color-black),
+				var(--color-white),
+				var(--color-black),
+				var(--color-black)
+			)
+			0 0 / var(--bg-size) 500%;
+		color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		animation: move-bg 100s infinite linear;
+	}
+
+	a.secret-nav-item:hover {
+		color: #AAAAAA;
+	}
+
+	@keyframes move-bg {
+
+		from {
+			background-position: var(--bg-size) 0;
+		}
+		to {
+			background-position: 0 0;
+		}
+	}
+
 	.site-title {
 		margin: 20px;
 		margin-left: 0;
@@ -101,11 +134,9 @@
 		}
 	}
 
-
-
 	@media only screen and (max-width: 700px) {
-    .secret-link {
-        display: none;
-    }
-}
+		.secret-link {
+			display: none;
+		}
+	}
 </style>
