@@ -1,14 +1,13 @@
-<div class="header-content">
+<nav class="header-content">
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
+	<a class="secret-link" href="/quote" style="color: #090909;">quote</a>
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
 		<a class="nav-item" href="/art-&-audio/">art & audio</a>
 		<a class="nav-item" href="/about/">about me</a>
 		<a class="nav-item" href="/filmic" style="margin-right: 0px;">filmic</a>
-
-		<!-- <a class="nav-item" href="/music/" style="margin-right: 0px;">music</a> -->
 	</div>
-</div>
+</nav>
 
 <style>
 	.header-content {
@@ -25,6 +24,11 @@
 		padding-right: 20px;
 	}
 
+	.secret-link {
+		color: red;
+		margin: 0px;
+	}
+
 	.nav-wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -37,6 +41,11 @@
 		/* padding: 20px; */
 		text-align: center;
 		/* margin-right: 0; */
+	}
+
+	.secret-link {
+		margin: 25px;
+		text-align: center;
 	}
 
 	a {
@@ -86,10 +95,17 @@
 		}
 
 		.nav-wrapper {
-			font-size: .9em;
+			font-size: 0.9em;
 			padding-top: 15px;
 			justify-content: space-evenly;
 		}
-
 	}
+
+
+
+	@media only screen and (max-width: 700px) {
+    .secret-link {
+        display: none;
+    }
+}
 </style>

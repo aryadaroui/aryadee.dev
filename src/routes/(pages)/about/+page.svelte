@@ -28,33 +28,26 @@
 
 <p>Appropriately, in my spare time, I make music, digital art, and take photos.</p>
 
-<p>I am currently looking for new work. Here's some of the tech I &lt;3:</p>
+<p>If there's one insight I'd like you to take away from here, it's this <a href="/quote">quote</a>.</p>
 
-<div id="tech-container">
+<hr>
+
+<p>I am currently looking for new work. <a href="/arya daroui resume.pdf">Here is a copy of my resume</a>, and this is some of the tech I &lt;3:</p>
+
+<div class="img-top-right">
 	<img class="tech" src="tech1.svg" alt="Python and TypeScript" />
 	<img class="tech" src="tech2.svg" alt="Rust and C++" />
 	<img class="tech" src="tech3.svg" alt="Git SQL UNIX" />
 </div>
 
 <p>
-	And a copy of my <a href="/arya daroui resume.pdf">resume</a>. If you'd like to get in touch,
-	please <a href="mailto: adaroui@uci.edu">email me</a>.
-	<br /><br />
 	Cheers.
-
-	<!-- <br /><br /> -->
-	<!-- P.S. Try resizing your browser window for some fun. -->
 </p>
 
 <style>
-	/* p {
-		font-size: 0.95em;
-		line-height: 1.5em;
+	p {
+		/* text-align: justify; */
 	}
-
-	h1 {
-		font-size: 1.5em;
-	} */
 
 	/* #tech-i-love {
 		/* max-width: 600px; */
