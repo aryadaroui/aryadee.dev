@@ -159,8 +159,8 @@
 		/* text-transform: uppercase; */
 		/* margin-top: 10px; */
 		/* margin-bottom: 10px; */
-		margin-left: 50px;
-		padding-left: 15px;
+		margin-left: 40px;
+		padding-left: 10px;
 		border-left: 2px solid #cccccc;
 		/* display: inline-flex; */
 	}
@@ -180,7 +180,7 @@
 	}
 
 	.overlay-pad {
-		padding: 0px 20px 0px;
+		/* padding: 0px 20px 0px; */
 		height: 100vh;
 		/* padding-left: 20px; */
 		/* padding-right: 20px; */
@@ -192,8 +192,8 @@
 
 	.overlay {
 		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 10px;
+		margin-right: 10px;
 		position: absolute;
 
 		/* top: 50%;
