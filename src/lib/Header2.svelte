@@ -1,6 +1,6 @@
 <nav class="header-content">
 	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
-	<div class="secret-link"><a class="secret-nav-item" href="/quote">quote</a></div>
+	<!-- <div class="secret-link"><a class="secret-nav-item" href="/quote">quote</a></div> -->
 	<div class="nav-wrapper">
 		<a class="nav-item" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
 		<a class="nav-item" href="/art-&-audio/">art & audio</a>
