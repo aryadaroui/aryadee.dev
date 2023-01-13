@@ -33,6 +33,7 @@
 		"@types/d3": "^7.4.0",
 		"@types/d3-color": "^3.1.0",
 		"@types/d3-hsv": "^0.1.4",
+		"@vercel/analytics": "^0.1.7",
 		"d3": "^7.6.1",
 		"d3-color": "^3.1.0",
 		"d3-hsv": "^0.1.0",

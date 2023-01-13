@@ -1,4 +1,12 @@
+<script>
+	import {inject} from '@vercel/analytics';
+
+	inject();
+</script>
+
 <slot />
+
+
 
 <style>
 	@import '../main.css';
