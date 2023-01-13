@@ -91,9 +91,8 @@
 	.nice-pic {
 		max-width: 360px;
 		padding: 10px;
-		padding-right: 10;
+		/* padding-right: 10; */
 
-		border-radius: 10px;
 	}
 
 	.nice-pic-container {
@@ -104,7 +103,7 @@
 
 	@media screen and (max-width: 500px) {
 		.nice-pic {
-			max-width: 300px;
+			max-width: 280px;
 		}
 
 		.nice-pic-container {

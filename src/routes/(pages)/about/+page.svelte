@@ -28,7 +28,7 @@
 
 <p>Appropriately, in my spare time, I make music, digital art, and take photos.</p>
 
-<p>Lastly, there's a <a href="/quote">quote</a> I'd like to share.</p>
+<p>Lastly, a <a href="/quote">quote</a> I'd like to share.</p>
 
 <!-- <hr> -->
 
