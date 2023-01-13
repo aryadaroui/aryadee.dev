@@ -91,7 +91,9 @@
 	.nice-pic {
 		max-width: 360px;
 		padding: 10px;
-		padding-right: 0;
+		padding-right: 10;
+
+		border-radius: 10px;
 	}
 
 	.nice-pic-container {
@@ -109,4 +111,5 @@
 			text-align: center;
 		}
 	}
+
 </style>

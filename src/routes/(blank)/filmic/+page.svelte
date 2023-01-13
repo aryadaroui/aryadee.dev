@@ -469,7 +469,7 @@
 		// }
 	}
 </script>
-
+<title>aryadee | filmic</title>
 <main>
 	<div id="content-container">
 		<Canvas {filmic_layer} {file} />

@@ -80,6 +80,9 @@
 
 <div>
 	<!-- <Header2 /> -->
+
+	<title>aryadee | quote</title>
+
 	<main>
 		<div class="overlay-pad">
 			<div class="overlay">
@@ -214,7 +217,9 @@
 		padding-right: 0px;
 		padding-bottom: 20px;
 		padding-top: 20px;
-		box-shadow: 0px 0px 30px black;
+		box-shadow: 0px 10px 20px black;
+		border-top: 1.5px solid rgba(45, 50, 55, 0.9);
+		border-bottom: 1.5px solid rgba(22, 25, 28, 0.9);
 
 		/* text-align: left; */
 		text-align: justify;

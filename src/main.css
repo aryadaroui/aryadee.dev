@@ -169,11 +169,24 @@ pre>code {
 	font-size: 0.85em;
 	overflow-x: scroll;
 	scrollbar-width: thin;
-	box-shadow: 0px 0px 15px 0px #070707;
+	box-shadow: 0px 5px 8px 0px #070707;
 	background-color: #0d1117;
 	margin-top: 25px;
 	margin-bottom: 25px;
+
+
+	border-top: 1.5px solid rgba(45, 50, 55, 0.9);
+	border-bottom: 1.5px solid rgba(32, 33, 37, 0.9);
 }
+
+
+img {
+	border-radius: 10px;
+	/* box-shadow: 0px 5px 8px 0px #070707; */
+	/* border-top: 1.5px solid rgba(45å, 50, 55, 0.9); */
+	/* border-bottom: 1.5px solid rgba(32, 33, 37, 0.9); */
+}
+
 
 
 body {
@@ -181,7 +194,6 @@ body {
 	font-size: 0.9em;
 	/* background-color: #1c1d1e; */
 }
-
 
 h1,
 h2,
@@ -226,6 +238,8 @@ p {
 	color: #DDDDDD;
 	line-height: 1.5em;
 	font-weight: 300;
+
+	text-align: justify;
 }
 
 a {
@@ -305,6 +319,10 @@ table {
 	/* -webkit-border-radius: 10px; */
 	overflow: hidden;
 	text-align: center;
+
+	box-shadow: 0 0 0 1px rgb(41, 42, 43); /* this draws the table border  */ 
+
+	
 	/* border-collapse: separate; */
 	
 }
@@ -314,7 +332,10 @@ table thead tr {
 	color: #ffffff;
 	text-align: left;
 	text-align: center;
-	/* border: 1px solid magenta; */
+
+	/* border-top: 1.5px solid rgba(45, 50, 55, 0.9); */
+	/* border-bottom: 1.5px solid rgba(32, 33, 37, 0.9); */
+
 	/* border-radius: 10px; */
 }
 

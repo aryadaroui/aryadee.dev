@@ -1,4 +1,3 @@
-<title>aryadee | filmic</title>
 
 
 <slot />

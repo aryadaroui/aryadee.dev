@@ -129,17 +129,23 @@
 		margin-right: auto;
 		background-size: contain;
 
-		background-color: rgba(31, 35, 39, 0.432);
+		/* text-align: justify; */
+
+		/* background-color: rgba(30, 35, 40, 0.3); */
+		background-color: rgba(22, 23, 23, 0.084);
+
 		border-radius: 15px;
 
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
 		padding-left: 60px;
 		padding-right: 60px;
 		padding-bottom: 40px;
 		padding-top: 40px;
-		box-shadow: 0px 0px 30px black;
+		box-shadow: 0px 10px 20px black;
 
+		border-top: 1.5px solid rgba(45, 50, 55, 0.9);
+		border-bottom: 1.5px solid rgba(22, 25, 28, 0.9);
 		text-align: left;
 	}
 
