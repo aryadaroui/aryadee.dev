@@ -573,6 +573,7 @@
 	}
 
 	p {
+		text-align: center;
 		font-family: 'swiss 721';
 		font-weight: 200;
 		letter-spacing: 0.1em;

@@ -123,19 +123,16 @@
 }
 
 ol {
-	/* font-family: hack; */
-	/* font-size: 0.98em; */
-	font-size: 1.1em;
+
 	font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	line-height: 1.5em;
 	color: #DDDDDD;
 }
 
+
 ul {
-	/* font-family: hack;
-	font-size: 0.94em; */
-	font-size: 1.1em;
+
 	font-family: 'Swiss 721', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	line-height: 1.5em;

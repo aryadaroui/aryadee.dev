@@ -208,7 +208,10 @@
 		/* margin-bottom: auto; */
 		background-size: contain;
 
-		background-color: rgba(22, 23, 23, 0.084);
+		/* background-color: rgba(22, 23, 23, 0.084); */
+
+		background-color: rgba(33, 35, 37, 0.2);
+
 		border-radius: 15px;
 
 		backdrop-filter: blur(5px);

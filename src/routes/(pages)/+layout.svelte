@@ -132,7 +132,7 @@
 		/* text-align: justify; */
 
 		/* background-color: rgba(30, 35, 40, 0.3); */
-		background-color: rgba(22, 23, 23, 0.084);
+		background-color: rgba(33, 35, 37, 0.22);
 
 		border-radius: 15px;
 
