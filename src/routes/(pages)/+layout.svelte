@@ -61,6 +61,10 @@
 		ctx.imageSmoothingEnabled = false;
 		draw_sprite_stars(ctx, blue_stars);
 
+		// ctx.font = '32px Comic Sans MS';
+		// ctx.fillStyle = 'red';
+		// ctx.fillText('why are you breaking my website', 2000, 2000);
+
 		function animate() {
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -68,10 +72,6 @@
 			// ctx.fillStyle = `rgba(0, 0, 0, ${opacity})`;
 			// ctx.fillRect(0, 0, canvas.width, canvas.height);
 			// opacity = clamp(opacity - 0.05, 0.0, 1.0);
-
-			ctx.font = '32px Comic Sans MS';
-			ctx.fillStyle = 'red';
-			ctx.fillText('why are you breaking my website', 2000, 2000);
 
 			setTimeout(() => {
 				requestAnimationFrame(animate);
@@ -93,9 +93,7 @@
 </script>
 
 <div>
-
-
-	<div id="fader"></div>
+	<div id="fader" />
 	<canvas id="space" width="500" height="500" />
 	<Header2 />
 	<main>
@@ -110,7 +108,7 @@
 
 <style>
 	:root {
-		background-color: #000000;
+		background-color: #090909;
 	}
 
 	@keyframes fade-in {
@@ -133,18 +131,16 @@
 		}
 	}
 
-
 	@keyframes fly-and-fade {
-	0% {
-		transform: translateY(-20px);
-		opacity: 0.8;
+		0% {
+			transform: translateY(-20px);
+			opacity: 0.8;
+		}
+		100% {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-
 
 	#fader {
 		background-color: #090909;
@@ -204,15 +200,9 @@
 		/* animation: 0.5s linear normal blur-in; */
 		/* filter: blur(0px); */
 
-
 		animation: 1s ease-in-out 0s fly-and-fade;
-
-
 	}
 
-
-
-	
 	@media screen and (max-width: 500px) {
 		.overlay {
 			padding: 20px;

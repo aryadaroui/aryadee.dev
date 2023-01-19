@@ -242,7 +242,7 @@ h1 {
 	font-size: 1.7em;
 	font-weight: 900;
 	/* font-weight: bolder; */
-	animation: 1s ease-out 0s fly-and-fade;
+	animation: 0.9s ease-out 0s fly-and-fade;
 
 }
 
@@ -260,7 +260,7 @@ h2 {
 	/* box-shadow: 0px 0px 5px 0px #070707; */
 
 
-	animation: 1s ease-out 0s fade-and-fade-less;
+	/* animation: 1s ease-out 0s fade-and-fade-less; */
 }
 
 h3 {
