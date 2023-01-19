@@ -64,13 +64,16 @@
 	} */
 
 	:root {
-		background-color: #090909;
+		background-color: #000000;
 	}
 
 	img {
 		margin: 20px;
 	}
 
+	p {
+		text-align: center;
+	}
 	.container {
 		text-align: center;
 	}

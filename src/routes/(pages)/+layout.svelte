@@ -10,7 +10,7 @@
 	import { clamp } from '$lib/functions';
 
 	function generate_sprite_stars() {
-		const blue_stars = new Array(200);
+		const blue_stars = new Array(100);
 
 		for (let index = 0; index < blue_stars.length; index++) {
 			blue_stars[index] = new StarSprite();
@@ -61,15 +61,13 @@
 		ctx.imageSmoothingEnabled = false;
 		draw_sprite_stars(ctx, blue_stars);
 
-		let opacity = 1.0;
-
 		function animate() {
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 			draw_sprite_stars(ctx, blue_stars);
-			ctx.fillStyle = `rgba(0, 0, 0, ${opacity})`;
-			ctx.fillRect(0, 0, canvas.width, canvas.height);
-			opacity = clamp(opacity - 0.05, 0.0, 1.0);
+			// ctx.fillStyle = `rgba(0, 0, 0, ${opacity})`;
+			// ctx.fillRect(0, 0, canvas.width, canvas.height);
+			// opacity = clamp(opacity - 0.05, 0.0, 1.0);
 
 			ctx.font = '32px Comic Sans MS';
 			ctx.fillStyle = 'red';
@@ -81,6 +79,9 @@
 		}
 
 		animate();
+
+		// document.getElementById('fader')!.style.animation='3s ease-in-out normal fade-in;';
+		document.getElementById('fader')?.classList.add('fader-anim');
 	});
 
 	afterNavigate((navigating) => {
@@ -92,6 +93,10 @@
 </script>
 
 <div>
+
+
+	<div id="fader"></div>
+	<canvas id="space" width="500" height="500" />
 	<Header2 />
 	<main>
 		<div class="overlay-pad">
@@ -101,12 +106,60 @@
 		</div>
 	</main>
 	<Footer2 />
-	<canvas id="space" width="500" height="500" />
 </div>
 
 <style>
 	:root {
+		background-color: #000000;
+	}
+
+	@keyframes fade-in {
+		from {
+			opacity: 1;
+		}
+		to {
+			opacity: 0;
+		}
+	}
+
+	@keyframes blur-in {
+		0% {
+			opacity: 1;
+			filter: blur(10px);
+		}
+		100% {
+			opacity: 1;
+			filter: blur(0px);
+		}
+	}
+
+
+	@keyframes fly-and-fade {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0.8;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+
+	#fader {
 		background-color: #090909;
+		opacity: 0;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		position: absolute;
+		/* animation: 3s ease-in-out normal fade-in; */
+	}
+
+	.fader-anim {
+		animation: 3s ease-in-out normal fade-in;
 	}
 
 	#space {
@@ -147,8 +200,19 @@
 		border-top: 1.5px solid rgba(45, 50, 55, 0.9);
 		border-bottom: 1.5px solid rgba(22, 25, 28, 0.9);
 		text-align: left;
+
+		/* animation: 0.5s linear normal blur-in; */
+		/* filter: blur(0px); */
+
+
+		animation: 1s ease-in-out 0s fly-and-fade;
+
+
 	}
 
+
+
+	
 	@media screen and (max-width: 500px) {
 		.overlay {
 			padding: 20px;

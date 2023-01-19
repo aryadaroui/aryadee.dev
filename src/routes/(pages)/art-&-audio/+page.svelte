@@ -1,6 +1,6 @@
 <title>aryadee | art & audio</title>
 
-<h1><span class="fancy-text">Art & audio</span> 🎨</h1>
+<h1><span class="fancy-text">Art & audio</span></h1>
 
 <!-- <hr> -->
 

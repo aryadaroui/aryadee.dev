@@ -13,7 +13,7 @@
 <!-- <Header /> -->
 
 <!-- <div class="main"> -->
-<h1><span class="fancy-text">Hello world</span> 🌎</h1>
+<h1><span class="fancy-text">Hello world</span></h1>
 
 <p>My name is Arya.</p>
 <p>

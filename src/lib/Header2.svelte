@@ -1,15 +1,74 @@
 <nav class="header-content">
-	<div class="nav-wrapper"><a class="site-title" rel="author" href="/">aryadee</a></div>
+	<div class="nav-wrapper"><a class="site-title fly-0" rel="author" href="/">aryadee</a></div>
 	<!-- <div class="secret-link"><a class="secret-nav-item" href="/quote">quote</a></div> -->
 	<div class="nav-wrapper">
-		<a class="nav-item" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
-		<a class="nav-item" href="/art-&-audio/">art & audio</a>
-		<a class="nav-item" href="/about/">about me</a>
-		<a class="nav-item" href="/filmic" style="margin-right: 0px;">filmic</a>
+		<a class="nav-item fly-1" href="/nerd-stuff/" style="margin-left: 0px;">nerd stuff</a>
+		<a class="nav-item fly-2" href="/art-&-audio/">art & audio</a>
+		<a class="nav-item fly-3" href="/about/">about me</a>
+		<a class="nav-item fly-4" href="/filmic" style="margin-right: 0px;">filmic</a>
 	</div>
 </nav>
 
 <style>
+	@keyframes fly-in-0 {
+		0% {
+			transform: translateY(-300%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	@keyframes fly-in-1 {
+		0% {
+			transform: translateY(-400%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	@keyframes fly-in-2 {
+		0% {
+			transform: translateY(-500%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	@keyframes fly-in-3 {
+		0% {
+			transform: translateY(-600%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	@keyframes fly-in-4 {
+		0% {
+			transform: translateY(-700%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	.fly-0 {
+		animation: 1s ease-out 0s fly-in-0;
+	}
+
+	.fly-1 {
+		animation: 1s ease-out normal fly-in-1;
+	}
+	.fly-2 {
+		animation: 1s ease-out normal fly-in-2;
+	}
+	.fly-3 {
+		animation: 1s ease-out normal fly-in-2;
+	}
+	.fly-4 {
+		animation: 1s ease-out normal fly-in-4;
+	}
+
+
 	.header-content {
 		/* font-family: 'Hack'; */
 		max-width: 800px;
@@ -40,6 +99,8 @@
 		/* padding: 20px; */
 		text-align: center;
 		/* margin-right: 0; */
+
+		/* animation: 1s ease-out 0s 1 fly-in; */
 	}
 
 	.secret-link {
@@ -69,7 +130,7 @@
 
 	a.secret-nav-item {
 		--bg-size: 400%;
-		--color-white: #AAAAAA;
+		--color-white: #aaaaaa;
 		--color-black: #000000;
 		background: linear-gradient(
 				-45deg,
@@ -88,11 +149,10 @@
 	}
 
 	a.secret-nav-item:hover {
-		color: #AAAAAA;
+		color: #aaaaaa;
 	}
 
 	@keyframes move-bg {
-
 		from {
 			background-position: var(--bg-size) 0;
 		}

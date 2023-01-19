@@ -1,7 +1,7 @@
 
 <title>aryadee | nerd stuff</title>
 
-<h1 ><span class="fancy-text">Nerd stuff</span> 📄</h1>
+<h1 ><span class="fancy-text">Nerd stuff</span></h1>
 <p>Some general academic content I've written over the years.</p>
 
 
