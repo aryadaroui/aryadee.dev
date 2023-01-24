@@ -31,7 +31,8 @@ export class StarSprite {
 	sprite_frame_index: number;
 	frame_change_probability: number;
 	sprite_imgs: HTMLElement[];
-	complete: boolean;
+	complete: boolean; // should remove this in lieu of promise
+	complete_prms: Promise<void>;
 	// sprite_imgs: HTMLImageElement[];
 	constructor() {
 		this.size = Math.random();
@@ -48,10 +49,20 @@ export class StarSprite {
 		this.sprite_frame_index = this.random_sprite_frame();
 		// debugger
 
-		this.load_sprite_imgs();
-		// this.sprite_imgs = this.get_sprite_imgs();
+		// this.load_sprite_imgs();
+		this.complete_prms = this.load_sprite_imgs();
 		this.complete = false;
+
+		
+
+
+		// this.complete_prms = new Promise((resolve, reject) => {
+		// })
 		// debugger;
+
+		// this.complete_prms = new Promise((resolve, reject) => {
+		// 	resolve(true);
+		// })
 	}
 
 	random_sprite_frame() {
@@ -103,12 +114,16 @@ export class StarSprite {
 
 
 
-		Promise.all([frame0.decode(), frame1.decode(), frame2.decode()]).then(() => {
+		return Promise.all([frame0.decode(), frame1.decode(), frame2.decode()]).then(() => {
 			this.complete = true;
 			// console.log(loaded_sprites)
 			this.sprite_imgs = [frame0, frame1, frame2];
 			// console.log('sprite images loaded');
-			// debugger
+	
+
+			// this is for sure the wrong way of doing this
+
+			
 		});
 
 		// frame0.decode().then(() => {
@@ -133,7 +148,7 @@ export class StarSprite {
 	draw(ctx: CanvasRenderingContext2D) {
 		// some of these values are hard coded!
 		if (this.complete) {
-			this.maybe_change_frame();
+			// this.maybe_change_frame();
 			// console.log(this);
 			// debugger;
 			this.x = (this.x + this.z - 1.0) % (ctx.canvas.width + 30);

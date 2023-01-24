@@ -10,7 +10,7 @@
 	import { clamp } from '$lib/functions';
 
 	function generate_sprite_stars() {
-		const blue_stars = new Array(100);
+		const blue_stars: Array<StarSprite> = new Array(100);
 
 		for (let index = 0; index < blue_stars.length; index++) {
 			blue_stars[index] = new StarSprite();
@@ -81,7 +81,10 @@
 		animate();
 
 		// document.getElementById('fader')!.style.animation='3s ease-in-out normal fade-in;';
-		document.getElementById('fader')?.classList.add('fader-anim');
+		blue_stars[blue_stars.length - 1].complete_prms.then(() =>
+			document.getElementById('fader')?.classList.add('fader-anim')
+		);
+		document.getElementById('footer-fader')?.classList.add('footer-fader-anim');
 	});
 
 	afterNavigate((navigating) => {
@@ -103,7 +106,9 @@
 			</div>
 		</div>
 	</main>
-	<Footer2 />
+	<div id="footer-fader">
+		<Footer2 />
+	</div>
 </div>
 
 <style>
@@ -117,6 +122,15 @@
 		}
 		to {
 			opacity: 0;
+		}
+	}
+
+	@keyframes footer-fade-in {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
 		}
 	}
 
@@ -156,6 +170,10 @@
 
 	.fader-anim {
 		animation: 3s ease-in-out normal fade-in;
+	}
+
+	.fader-anim {
+		animation: 3s ease-in-out normal footer-fade-in;
 	}
 
 	#space {
