@@ -80,11 +80,10 @@
 
 		animate();
 
-		Promise.all(blue_stars.map((val) => val.complete_prms)).then(() =>{
-			document.getElementById('fader')?.classList.add('fader-anim');
-			// document.getElementById('footer-fader')?.classList.add('footer-fader-anim');
-		})
 		// document.getElementById('footer-fader')?.classList.add('footer-fader-anim');
+		Promise.all(blue_stars.map((val) => val.complete_prms)).then(() => {
+			document.getElementById('fader')?.classList.add('back-fader-anim');
+		});
 	});
 
 	afterNavigate((navigating) => {
@@ -106,12 +105,8 @@
 			</div>
 		</div>
 	</main>
-	<!-- <div id="footer-fader"> -->
-		<Footer2 />
-	<!-- </div> -->
+	<Footer2 />
 </div>
-
-
 
 <style>
 	:root {
@@ -124,15 +119,6 @@
 		}
 		to {
 			opacity: 0;
-		}
-	}
-
-	@keyframes footer-fade-in {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
 		}
 	}
 
@@ -168,19 +154,21 @@
 		pointer-events: none;
 		position: absolute;
 		/* animation: 3s ease-in-out normal fade-in; */
+		z-index: -1;
 	}
 
 	#footer-fader {
-		z-index: 0;
+		z-index: 10;
 	}
 
-	.fader-anim {
+	:global(.back-fader-anim) {
 		animation: 3s ease-in-out normal fade-in;
 	}
 
-	.fader-anim {
-		animation: 3s ease-in-out normal footer-fade-in;
-	}
+	/* :global(.footer-fader-anim) {
+		animation: 1s ease-in-out normal footer-fade-in;
+		z-index: 10;
+	} */
 
 	#space {
 		background-attachment: fixed;
@@ -189,7 +177,7 @@
 		top: 0;
 		left: 0;
 		/* image-rendering: optimizeQuality; */
-		z-index: -1;
+		z-index: -2;
 	}
 
 	.overlay-pad {

@@ -51,6 +51,16 @@
 		padding: 0px;
 	}
 
+
+	@keyframes footer-fade-in {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
 	.footer {
 		padding: 20px;
 		margin-left: auto;
@@ -59,5 +69,7 @@
 		display: flex;
 		justify-content: space-between;
 		/* margin-bottom: 0px; */
+		animation: 1s ease-in-out normal footer-fade-in;
+		z-index: 10;
 	}
 </style>
