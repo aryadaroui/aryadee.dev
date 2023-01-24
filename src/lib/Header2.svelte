@@ -12,7 +12,7 @@
 <style>
 	@keyframes fly-in-0 {
 		0% {
-			transform: translateY(-300%);
+			transform: translateY(-100px);
 		}
 		100% {
 			transform: translateY(0);
@@ -20,7 +20,7 @@
 	}
 	@keyframes fly-in-1 {
 		0% {
-			transform: translateY(-400%);
+			transform: translateY(-150px);
 		}
 		100% {
 			transform: translateY(0);
@@ -28,7 +28,7 @@
 	}
 	@keyframes fly-in-2 {
 		0% {
-			transform: translateY(-500%);
+			transform: translateY(-200px);
 		}
 		100% {
 			transform: translateY(0);
@@ -36,7 +36,7 @@
 	}
 	@keyframes fly-in-3 {
 		0% {
-			transform: translateY(-600%);
+			transform: translateY(-250px);
 		}
 		100% {
 			transform: translateY(0);
@@ -44,7 +44,7 @@
 	}
 	@keyframes fly-in-4 {
 		0% {
-			transform: translateY(-700%);
+			transform: translateY(-300px);
 		}
 		100% {
 			transform: translateY(0);
