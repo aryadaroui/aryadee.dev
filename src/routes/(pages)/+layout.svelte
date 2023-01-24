@@ -81,9 +81,13 @@
 		animate();
 
 		// document.getElementById('fader')!.style.animation='3s ease-in-out normal fade-in;';
-		blue_stars[blue_stars.length - 1].complete_prms.then(() =>
+		// blue_stars[blue_stars.length - 1].complete_prms.then(() =>
+		// 	document.getElementById('fader')?.classList.add('fader-anim')
+		// );
+
+		Promise.all(blue_stars.map((val) => val.complete_prms)).then(() =>{
 			document.getElementById('fader')?.classList.add('fader-anim')
-		);
+		})
 		document.getElementById('footer-fader')?.classList.add('footer-fader-anim');
 	});
 
